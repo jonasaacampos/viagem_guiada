@@ -3,10 +3,23 @@ Para criar o projeto:
 ```bash
 flutter create viagem_guiada
 $ cd viagem_guiada
-$ code . # para abrir o Visual Studio Code no diret髍io do projeto
+$ code . # para abrir o Visual Studio Code no diret贸rio do projeto
 $ flutter run
 ```
 
+- [x] Criar diret贸rio para imagens (assests)
+- [ ] Criar diret贸rio `src` e dentro dele `models, pages, partials`
+- [ ] Apagar todo o conte煤do do arquivo principal (`lib/main.dart`)
 
-rotas
+**No arquivo `pubspec.yaml`**
+
+- [ ] Inserir diret贸rio de assets
+- [ ] inserir depend锚ncias `provider: ^3.0.0` e  `http: ^0.12.0+4`
+
+
+**Projeto ter谩 **
+
+rotas nomeadas
 provider
+
+

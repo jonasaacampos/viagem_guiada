@@ -23,3 +23,6 @@ rotas nomeadas
 provider
 
 
+## Referências
+
+- [**pub.dev** - The official package repository for Dart and Flutter apps](https://pub.dev/)

@@ -1,6 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../models/appdata.dart';
 
 class PreLoadPage extends StatefulWidget {
   @override
@@ -8,7 +10,33 @@ class PreLoadPage extends StatefulWidget {
 }
 
 class _PreLoadPage extends State<PreLoadPage> {
-  bool loading = false;
+  bool loading = true;
+
+  void requestInfo() async {
+    await Future.delayed(Duration(seconds: 1));
+
+    setState(() {
+      loading = true;
+    });
+
+    bool req = await Provider.of<AppData>(context).requestData();
+
+    if (req) {
+      //go to home page
+      print('sucesso!');
+    } else {
+      print('algo deu errado na requisição...');
+    }
+
+    setState(() {
+      loading = false;
+    });
+  }
+
+  void initState() {
+    super.initState();
+    requestInfo();
+  }
 
   var appName = 'Viagem Guiada';
   var appSlogan = 'Destinos reais baseados em histórias imaginadas';

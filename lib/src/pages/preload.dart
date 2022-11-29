@@ -19,13 +19,12 @@ class _PreLoadPage extends State<PreLoadPage> {
       loading = true;
     });
 
-    bool req = await Provider.of<AppData>(context).requestData();
+    // ignore: use_build_context_synchronously
+    bool req = await Provider.of<AppData>(context, listen: false).requestData();
 
     if (req) {
-      //go to home page
-      print('sucesso!');
-    } else {
-      print('algo deu errado na requisição...');
+      // ignore: use_build_context_synchronously
+      Navigator.pushReplacementNamed(context, '/home');
     }
 
     setState(() {
@@ -33,19 +32,21 @@ class _PreLoadPage extends State<PreLoadPage> {
     });
   }
 
+  @override
   void initState() {
     super.initState();
     requestInfo();
   }
 
-  var appName = 'Viagem Guiada';
-  var appSlogan = 'Destinos reais baseados em histórias imaginadas';
+  static const appName = 'Viagem Guiada';
+  static const appSlogan = 'Destinos reais baseados em histórias imaginadas';
 
   var textStyle = TextStyle(fontSize: 16);
   var textStyleTitle = TextStyle(fontSize: 25, fontWeight: FontWeight.bold);
   var textStyleSlogan = TextStyle(fontSize: 18, fontStyle: FontStyle.italic);
 
-  var animationColorGrey = AlwaysStoppedAnimation<Color>(Colors.grey);
+  var animationColorGrey =
+      AlwaysStoppedAnimation<Color>(Color.fromARGB(255, 69, 252, 13));
 
   @override
   Widget build(BuildContext context) {

@@ -6,10 +6,12 @@ import 'src/models/appdata.dart';
 import 'src/pages/preload.dart';
 import 'src/pages/home.dart';
 
-void main() => runApp(MultiProvider(
-      providers: [ChangeNotifierProvider(create: (context) => AppData())],
-      child: MyApp(),
-    ));
+void main() {
+  runApp(MultiProvider(
+    providers: [ChangeNotifierProvider(create: (context) => AppData())],
+    child: MyApp(),
+  ));
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         '/preload': (context) => PreLoadPage(),
-        '/home': (context) => HomePage(),
+        '/home': (context) => HomePage()
       },
       initialRoute: '/preload',
     );

@@ -22,7 +22,7 @@ Usar ` provider: ^4.3.3`
 Provider.of<T>(context,listen:false)
 ```
 
-**Projeto terá **
+**Projeto terá**
 
 rotas nomeadas
 provider

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/appdata.dart';
 import '../partials/customAppBar.dart';
+import '../partials/customDrawer.dart';
 
 class HomePage extends StatelessWidget {
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
@@ -25,7 +26,7 @@ class HomePage extends StatelessWidget {
                 pageContext: context,
                 title: 'Página inicial',
               ),
-              drawer: Drawer(),
+              drawer: CustomDrawer(),
               body: Center(
                   heightFactor: 2,
                   child: Column(

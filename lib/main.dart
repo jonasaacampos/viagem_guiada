@@ -16,6 +16,10 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  static const appName = 'Viagem Guiada';
+  static const appSlogan = 'Destinos reais baseados em\nhistórias imaginadas';
+  static const appVersion = '1.0';
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

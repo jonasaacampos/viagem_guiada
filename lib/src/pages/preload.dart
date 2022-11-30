@@ -27,6 +27,10 @@ class _PreLoadPage extends State<PreLoadPage> {
     if (req) {
       // ignore: use_build_context_synchronously
       Navigator.pushReplacementNamed(context, '/home');
+
+      //teste do automaticallyImplyLeading: true no appBar
+      //caso personalizado, fazer manualmente a exibição dos icones ao inves de usar o método
+      //Navigator.pushNamed(context, '/home');
     }
 
     setState(() {
@@ -41,7 +45,7 @@ class _PreLoadPage extends State<PreLoadPage> {
   }
 
   // static const appName = 'Viagem Guiada';
-  // static const appSlogan = 'Destinos reais baseados em histórias imaginadas';
+  // static const appSlogan = 'Destinos reais baseados em histÃ³rias imaginadas';
 
   var textStyle = TextStyle(fontSize: 16);
   var textStyleTitle = TextStyle(fontSize: 25, fontWeight: FontWeight.bold);
@@ -79,7 +83,7 @@ class _PreLoadPage extends State<PreLoadPage> {
               ? Container(
                   margin: EdgeInsets.all(20),
                   child: Text(
-                    'Carregando informações...',
+                    'Carregando informaÃ§Ãµes...',
                     style: textStyle,
                   ),
                 )

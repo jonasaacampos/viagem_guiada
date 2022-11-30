@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/appdata.dart';
+import '../partials/customAppBar.dart';
 
 class HomePage extends StatelessWidget {
   static const appName = 'Viagem Guiada';
@@ -16,7 +17,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<AppData>(
         builder: (ctx, appdata, child) => Scaffold(
-              appBar: AppBar(title: Text('Home')),
+              appBar: CustomAppBar(),
               body: Center(
                   heightFactor: 2,
                   child: Column(

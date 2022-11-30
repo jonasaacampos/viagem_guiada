@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/appdata.dart';
 
+import '../pages/home.dart';
+
 class PreLoadPage extends StatefulWidget {
   @override
   _PreLoadPage createState() => _PreLoadPage();
@@ -38,8 +40,8 @@ class _PreLoadPage extends State<PreLoadPage> {
     requestInfo();
   }
 
-  static const appName = 'Viagem Guiada';
-  static const appSlogan = 'Destinos reais baseados em histórias imaginadas';
+  // static const appName = 'Viagem Guiada';
+  // static const appSlogan = 'Destinos reais baseados em histórias imaginadas';
 
   var textStyle = TextStyle(fontSize: 16);
   var textStyleTitle = TextStyle(fontSize: 25, fontWeight: FontWeight.bold);
@@ -60,15 +62,16 @@ class _PreLoadPage extends State<PreLoadPage> {
             width: 300,
           ),
           Text(
-            appName,
+            HomePage.appName,
             style: textStyleTitle,
           ),
           Container(
             padding: EdgeInsets.all(30),
             child: Center(
               child: Text(
-                appSlogan,
+                HomePage.appSlogan,
                 style: textStyleSlogan,
+                textAlign: TextAlign.center,
               ),
             ),
           ),

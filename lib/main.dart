@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:viagem_guiada/src/pages/search.dart';
 
 import 'src/models/appdata.dart';
 
 import 'src/pages/preload.dart';
 import 'src/pages/home.dart';
+import 'src/pages/search.dart';
 
 void main() {
   runApp(MultiProvider(
@@ -18,8 +20,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
+        '/home': (context) => HomePage(),
         '/preload': (context) => PreLoadPage(),
-        '/home': (context) => HomePage()
+        '/search': (context) => SearchPage(),
       },
       initialRoute: '/preload',
     );

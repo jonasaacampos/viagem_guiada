@@ -4,6 +4,8 @@ import '../models/appdata.dart';
 import '../partials/customAppBar.dart';
 
 class HomePage extends StatelessWidget {
+  GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
+
   static const appName = 'Viagem Guiada';
   static const appSlogan = 'Destinos reais baseados em\nhistórias imaginadas';
 
@@ -17,7 +19,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<AppData>(
         builder: (ctx, appdata, child) => Scaffold(
-              appBar: CustomAppBar(),
+              key: _scaffoldKey,
+              appBar: CustomAppBar(
+                scaffoldKey: _scaffoldKey,
+                pageContext: context,
+                title: 'Página inicial',
+              ),
+              drawer: Drawer(),
               body: Center(
                   heightFactor: 2,
                   child: Column(

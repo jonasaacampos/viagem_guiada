@@ -83,7 +83,7 @@ class _PreLoadPage extends State<PreLoadPage> {
               ? Container(
                   margin: EdgeInsets.all(20),
                   child: Text(
-                    'Carregando informaÃ§Ãµes...',
+                    'Carregando informações...',
                     style: textStyle,
                   ),
                 )

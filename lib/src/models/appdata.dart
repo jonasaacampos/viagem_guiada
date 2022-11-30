@@ -5,6 +5,7 @@ import 'package:http/http.dart' as http;
 
 class AppData with ChangeNotifier {
   var data = [];
+  const final urlJsonApi = 'https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/data/data-api.json';
 
   void setData(newData) {
     data = newData;
@@ -13,7 +14,7 @@ class AppData with ChangeNotifier {
 
   // ignore: missing_return
   Future<bool> requestData() async {
-    final res = await http.get('https://api.b7web.com.br/flutter1wb/');
+    final res = await http.get(urlJsonApi);
 
 //https://api.b7web.com.br/flutter1wb
 //https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/data/data-api.json

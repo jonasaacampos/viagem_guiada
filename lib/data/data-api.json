@@ -4,17 +4,18 @@
         "cidades": [
             {
                 "name": "Salvador, Bahia",
+                "foto": "lib/assets/img/salvador.jpg",
                 "review": "4.2",
                 "description": "No livro, são citadas a Cidade Baixa, área litorânea e portuária de Salvador, onde os meninos viviam; e a Cidade Alta, zona mais moderna de Salvador atualmente. Na época, era um local mais residencial onde morava a elite da capital baiana. Hoje, as duas regiões possuem atrativos para turistas.",
                 "livro": "Capitães da Areia, Jorge Amado",
                 "locais": [
                     {
                         "name": "Cidade Baixa",
-                        "img": "#image.jpg"
+                        "img": "lib/assets/img/salvador-cidade-baixa.jpg"
                     },
                     {
                         "name": "Cidade Alta",
-                        "img": "#image.jpg"
+                        "img": "lib/assets/img/salvador-cidade-alta.jpg"
                     }
                 ]
             },

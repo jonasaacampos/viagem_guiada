@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import '../../main.dart';
 
-Widget CustomDrawer() {
+Widget CustomDrawer({
+  BuildContext pageContext,
+}) {
   return Drawer(
     child: ListView(
       padding: EdgeInsets.zero,
@@ -31,7 +33,47 @@ Widget CustomDrawer() {
           decoration: BoxDecoration(
             color: Color.fromARGB(255, 4, 121, 255),
           ),
-        )
+        ),
+        ListTile(
+          leading: Icon(
+            Icons.home,
+            color: Colors.black,
+          ),
+          title: Text('Home'),
+          onTap: () {
+            Navigator.pushReplacementNamed(pageContext, '/home');
+          },
+        ),
+        ListTile(
+          leading: Icon(
+            Icons.public,
+            color: Colors.black,
+          ),
+          title: Text('Escolher Região'),
+          onTap: () {
+            Navigator.pushReplacementNamed(pageContext, '/regiao');
+          },
+        ),
+        ListTile(
+          leading: Icon(
+            Icons.search,
+            color: Colors.black,
+          ),
+          title: Text('Buscar Cidade'),
+          onTap: () {
+            Navigator.pushReplacementNamed(pageContext, '/search');
+          },
+        ),
+        ListTile(
+          leading: Icon(
+            Icons.favorite,
+            color: Colors.black,
+          ),
+          title: Text('Cidades Salvas'),
+          onTap: () {
+            Navigator.pushReplacementNamed(pageContext, '/favoritos');
+          },
+        ),
       ],
     ),
   );

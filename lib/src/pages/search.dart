@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/appdata.dart';
 import '../partials/customAppBar.dart';
+import '../partials/customDrawer.dart';
 
 class SearchPage extends StatelessWidget {
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
@@ -17,7 +18,7 @@ class SearchPage extends StatelessWidget {
                 title: 'Busque seu destino',
                 hideSearch: true,
               ),
-              drawer: Drawer(),
+              drawer: CustomDrawer(pageContext: context),
               body: Center(
                   heightFactor: 2,
                   child: Column(

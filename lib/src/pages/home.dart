@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
                 pageContext: context,
                 title: 'Página inicial',
               ),
-              drawer: CustomDrawer(),
+              drawer: CustomDrawer(pageContext: context),
               body: Center(
                   heightFactor: 2,
                   child: Column(

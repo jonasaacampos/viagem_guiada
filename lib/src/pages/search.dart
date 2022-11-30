@@ -19,6 +19,7 @@ class SearchPage extends StatelessWidget {
                 hideSearch: true,
               ),
               drawer: CustomDrawer(pageContext: context),
+              backgroundColor: Colors.white,
               body: Center(
                   heightFactor: 2,
                   child: Column(

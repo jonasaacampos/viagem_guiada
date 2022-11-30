@@ -7,6 +7,7 @@ import 'src/models/appdata.dart';
 import 'src/pages/preload.dart';
 import 'src/pages/home.dart';
 import 'src/pages/search.dart';
+import 'src/pages/regiao.dart';
 
 void main() {
   runApp(MultiProvider(
@@ -17,7 +18,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   static const appName = 'Viagem Guiada';
-  static const appSlogan = 'Destinos reais baseados em\nhistórias imaginadas';
+  static const appSlogan = 'Destinos reais baseados em\nhistÃ³rias imaginadas';
   static const appVersion = '1.0';
 
   @override
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => HomePage(),
         '/preload': (context) => PreLoadPage(),
         '/search': (context) => SearchPage(),
+        '/regiao': (context) => RegionPage(),
       },
       initialRoute: '/preload',
     );

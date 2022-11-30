@@ -5,7 +5,8 @@ import 'package:http/http.dart' as http;
 
 class AppData with ChangeNotifier {
   var data = [];
-  const final urlJsonApi = 'https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/data/data-api.json';
+  static const urlJsonApi =
+      'https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/data/data-api.json';
 
   void setData(newData) {
     data = newData;

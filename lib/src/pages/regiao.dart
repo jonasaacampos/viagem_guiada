@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import '../models/appdata.dart';
 import '../partials/customAppBar.dart';
 import '../partials/customDrawer.dart';
+import '../partials/cityBox.dart';
 
 class RegionPage extends StatelessWidget {
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
@@ -24,6 +25,9 @@ class RegionPage extends StatelessWidget {
               //Text('Região: ${appdata.data[index]['regiao']}'),
               itemBuilder: (context, index) {
                 var cidades = [];
+                for (var country in appdata.data[index]['countries']) {
+                  cidades.addAll(country['cities']);
+                }
 
                 return Column(
                   children: [
@@ -32,8 +36,9 @@ class RegionPage extends StatelessWidget {
                       children: [
                         TextButton(
                           onPressed: () {},
+                          // child: Text("${appdata.data[index]['regiao']} ( ${appdata.data[index]['cidades'].length} )"),
                           child: Text(
-                              "${appdata.data[index]['regiao']} ( ${appdata.data[index]['cidades'].length} )"),
+                              "${appdata.data[index]['name']} ( ${cidades.length} )"),
                         ),
                         TextButton(
                           onPressed: () {},
@@ -46,14 +51,10 @@ class RegionPage extends StatelessWidget {
                       height: 130,
                       child: ListView.builder(
                           scrollDirection: Axis.horizontal,
-                          itemCount: 5,
+                          itemCount: cidades.length,
                           itemBuilder: (cityContext, cityIndex) {
-                            return Container(
-                              width: 130,
-                              height: 130,
-                              color: Colors.red,
-                              margin: EdgeInsets.only(left: 10, right: 10),
-                            );
+                            return CityBox(
+                                data: cidades[cityIndex], onTap: () {});
                           }),
                     ),
                   ],

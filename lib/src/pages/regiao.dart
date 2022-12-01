@@ -8,6 +8,14 @@ import '../partials/cityBox.dart';
 class RegionPage extends StatelessWidget {
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
 
+  void verCidades(continentIndex) {
+    print(continentIndex);
+  }
+
+  void cityBoxAction(cityData) {
+    print(cityData['name']);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Consumer<AppData>(
@@ -34,15 +42,28 @@ class RegionPage extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        TextButton(
-                          onPressed: () {},
-                          // child: Text("${appdata.data[index]['regiao']} ( ${appdata.data[index]['cidades'].length} )"),
+                        Container(
+                          margin: EdgeInsets.only(left: 15),
                           child: Text(
-                              "${appdata.data[index]['name']} ( ${cidades.length} )"),
+                            "${appdata.data[index]['name']} ( ${cidades.length} )",
+                            style: TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.bold,
+                                fontFamily: 'Helvetica Neue'),
+                          ),
                         ),
                         TextButton(
-                          onPressed: () {},
-                          child: Text('Ver cidades'),
+                          onPressed: () {
+                            verCidades(index);
+                          },
+                          child: Text(
+                            'Ver cidades',
+                            style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey,
+                            ),
+                          ),
                         ),
                       ],
                     ),
@@ -54,7 +75,7 @@ class RegionPage extends StatelessWidget {
                           itemCount: cidades.length,
                           itemBuilder: (cityContext, cityIndex) {
                             return CityBox(
-                                data: cidades[cityIndex], onTap: () {});
+                                data: cidades[cityIndex], onTap: cityBoxAction);
                           }),
                     ),
                   ],

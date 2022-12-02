@@ -17,8 +17,20 @@ class CityPage extends StatelessWidget {
     //print('$cityData');
 
     final double statusBarHeigth = MediaQuery.of(context).padding.top;
+    final double footerHight = MediaQuery.of(context).padding.bottom;
 
     print('${cityData["name"]}');
+
+    var starRate = double.parse(cityData['review']).floor();
+
+    var stars = [];
+    for (var i = 0; i < 5; i++) {
+      if (i < starRate) {
+        stars.add(true);
+      } else {
+        stars.add(false);
+      }
+    }
 
     return Consumer<AppData>(
         builder: (ctx, appdata, child) => Scaffold(
@@ -73,7 +85,7 @@ class CityPage extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Container(
-                                margin: EdgeInsets.all(10),
+                                margin: EdgeInsets.all(5),
                                 child: Column(
                                   children: [
                                     Container(
@@ -89,19 +101,48 @@ class CityPage extends StatelessWidget {
                                     ),
                                     Row(
                                       children: [
-                                        Icon(
-                                          Icons.star,
-                                          color: Colors.blue[600],
-                                          size: 15,
+                                        Container(
+                                          margin: EdgeInsets.only(left: 10),
+                                          child: Row(
+                                            children: [
+                                              Icon(Icons.star,
+                                                  color: stars[0]
+                                                      ? Colors.blue
+                                                      : Colors.grey,
+                                                  size: 15),
+                                              Icon(Icons.star,
+                                                  color: stars[1]
+                                                      ? Colors.blue
+                                                      : Colors.grey,
+                                                  size: 15),
+                                              Icon(Icons.star,
+                                                  color: stars[2]
+                                                      ? Colors.blue
+                                                      : Colors.grey,
+                                                  size: 15),
+                                              Icon(Icons.star,
+                                                  color: stars[3]
+                                                      ? Colors.blue
+                                                      : Colors.grey,
+                                                  size: 15),
+                                              Icon(Icons.star,
+                                                  color: stars[4]
+                                                      ? Colors.blue
+                                                      : Colors.grey,
+                                                  size: 15),
+                                            ],
+                                          ),
                                         ),
                                         Container(
-                                          margin: EdgeInsets.only(right: 10),
+                                          margin: EdgeInsets.only(left: 7),
                                           child: Text(
-                                            '4.2',
+                                            cityData['review'],
+                                            // ignore: prefer_const_constructors
                                             style: TextStyle(
                                               fontFamily: 'Helvetica Neue',
                                               fontSize: 11,
                                               fontWeight: FontWeight.bold,
+                                              color: Colors.grey,
                                             ),
                                           ),
                                         ),
@@ -121,6 +162,54 @@ class CityPage extends StatelessWidget {
                                 ),
                               ),
                             ],
+                          ),
+                          Container(
+                            padding: EdgeInsets.only(
+                              top: 0,
+                              right: 15,
+                              bottom: 15,
+                              left: 15,
+                            ),
+                            child: Text(
+                              cityData['description'],
+                              style: TextStyle(
+                                  fontFamily: 'Helvetica Neue',
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.normal,
+                                  color: Colors.grey[600]),
+                            ),
+                          ),
+                          Divider(
+                            thickness: 1,
+                          ),
+                          Container(
+                            margin: EdgeInsets.all(10),
+                            child: Center(
+                              child: Text(
+                                'Principais pontos turísticos',
+                                style: TextStyle(
+                                  fontFamily: 'Helvetica Neue',
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
+                          ),
+                          GridView.count(
+                            padding: EdgeInsets.only(bottom: footerHight),
+                            shrinkWrap: true,
+                            physics: NeverScrollableScrollPhysics(),
+                            crossAxisCount: 2,
+                            children: List.generate(cityData['places'].length,
+                                (index) {
+                              return (Container(
+                                width: 100,
+                                height: 100,
+                                decoration:
+                                    BoxDecoration(color: Colors.black87),
+                                margin: EdgeInsets.all(10),
+                              ));
+                            }),
                           )
                         ],
                       ),

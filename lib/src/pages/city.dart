@@ -67,23 +67,59 @@ class CityPage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Column(
-                                children: [
-                                  Text(
-                                    cityData['name'],
-                                    style: TextStyle(
-                                      fontFamily: 'Helvetica Neue',
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
+                              Container(
+                                margin: EdgeInsets.all(10),
+                                child: Column(
+                                  children: [
+                                    Container(
+                                      margin: EdgeInsets.only(bottom: 5),
+                                      child: Text(
+                                        cityData['name'],
+                                        style: TextStyle(
+                                          fontFamily: 'Helvetica Neue',
+                                          fontSize: 18,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                     ),
-                                  ),
-                                  Text('Nome cidade...'),
-                                ],
+                                    Row(
+                                      children: [
+                                        Icon(
+                                          Icons.star,
+                                          color: Colors.blue[600],
+                                          size: 15,
+                                        ),
+                                        Container(
+                                          margin: EdgeInsets.only(right: 10),
+                                          child: Text(
+                                            '4.2',
+                                            style: TextStyle(
+                                              fontFamily: 'Helvetica Neue',
+                                              fontSize: 11,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    )
+                                  ],
+                                ),
                               ),
-                              Text('...'),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                child: IconButton(
+                                  icon: Icon(
+                                    Icons.favorite_border,
+                                    color: Colors.red[300],
+                                  ),
+                                  onPressed: () {},
+                                ),
+                              ),
                             ],
                           )
                         ],

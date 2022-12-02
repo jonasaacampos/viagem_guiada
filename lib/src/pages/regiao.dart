@@ -13,8 +13,9 @@ class RegionPage extends StatelessWidget {
     Navigator.pushNamed(context, '/listCity', arguments: continentIndex);
   }
 
-  void cityBoxAction(cityData) {
-    print(cityData['name']);
+  void cityBoxAction(cityContext, cityData) {
+    //print(cityData['name']);
+    Navigator.pushNamed(cityContext, '/city', arguments: cityData);
   }
 
   @override
@@ -75,7 +76,10 @@ class RegionPage extends StatelessWidget {
                           itemCount: cidades.length,
                           itemBuilder: (cityContext, cityIndex) {
                             return CityBox(
-                                data: cidades[cityIndex], onTap: cityBoxAction);
+                                data: cidades[cityIndex],
+                                onTap: (cityData) {
+                                  cityBoxAction(context, cityData);
+                                });
                           }),
                     ),
                   ],

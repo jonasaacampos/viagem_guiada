@@ -8,8 +8,9 @@ import '../partials/cityBox.dart';
 class ListCityPage extends StatelessWidget {
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
 
-  void cityBoxAction(cityData) {
+  void cityBoxAction(pageContext, cityData) {
     print(cityData['name']);
+    Navigator.pushNamed(pageContext, '/city', arguments: cityData);
   }
 
   @override
@@ -37,7 +38,11 @@ class ListCityPage extends StatelessWidget {
           body: GridView.count(
             crossAxisCount: 3,
             children: List.generate(cities.length, (index) {
-              return CityBox(data: cities[index], onTap: cityBoxAction);
+              return CityBox(
+                  data: cities[index],
+                  onTap: (cityData) {
+                    cityBoxAction(context, cityData);
+                  });
             }),
           )));
     });

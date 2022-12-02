@@ -8,6 +8,7 @@ import 'src/pages/preload.dart';
 import 'src/pages/home.dart';
 import 'src/pages/search.dart';
 import 'src/pages/regiao.dart';
+import 'src/pages/listCity.dart';
 
 void main() {
   runApp(MultiProvider(
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
         '/preload': (context) => PreLoadPage(),
         '/search': (context) => SearchPage(),
         '/regiao': (context) => RegionPage(),
+        '/listCity': (context) => ListCityPage(),
       },
       initialRoute: '/preload',
     );

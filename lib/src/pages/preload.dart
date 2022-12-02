@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import '../models/appdata.dart';
 
@@ -44,9 +45,6 @@ class _PreLoadPage extends State<PreLoadPage> {
     requestInfo();
   }
 
-  // static const appName = 'Viagem Guiada';
-  // static const appSlogan = 'Destinos reais baseados em histÃ³rias imaginadas';
-
   var textStyle = TextStyle(fontSize: 16);
   var textStyleTitle = TextStyle(fontSize: 25, fontWeight: FontWeight.bold);
   var textStyleSlogan = TextStyle(fontSize: 18, fontStyle: FontStyle.italic);
@@ -56,6 +54,8 @@ class _PreLoadPage extends State<PreLoadPage> {
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);
+
     return Scaffold(
       body: Center(
           child: Column(

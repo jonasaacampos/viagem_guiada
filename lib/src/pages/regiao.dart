@@ -8,8 +8,9 @@ import '../partials/cityBox.dart';
 class RegionPage extends StatelessWidget {
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
 
-  void verCidades(continentIndex) {
+  void verCidadesAction(context, continentIndex) {
     print(continentIndex);
+    Navigator.pushNamed(context, '/listCity', arguments: continentIndex);
   }
 
   void cityBoxAction(cityData) {
@@ -30,7 +31,6 @@ class RegionPage extends StatelessWidget {
             backgroundColor: Colors.white,
             body: ListView.builder(
               itemCount: appdata.data.length,
-              //Text('Região: ${appdata.data[index]['regiao']}'),
               itemBuilder: (context, index) {
                 var cidades = [];
                 for (var country in appdata.data[index]['countries']) {
@@ -54,7 +54,7 @@ class RegionPage extends StatelessWidget {
                         ),
                         TextButton(
                           onPressed: () {
-                            verCidades(index);
+                            verCidadesAction(context, index);
                           },
                           child: Text(
                             'Ver cidades',

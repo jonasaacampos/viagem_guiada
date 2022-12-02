@@ -7,6 +7,10 @@ import '../partials/customDrawer.dart';
 class CityPage extends StatelessWidget {
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
 
+  void backButtonAction(pageContext) {
+    Navigator.pop(pageContext);
+  }
+
   @override
   Widget build(BuildContext context) {
     Map<String, dynamic> cityData = ModalRoute.of(context).settings.arguments;
@@ -14,7 +18,8 @@ class CityPage extends StatelessWidget {
 
     final double statusBarHeigth = MediaQuery.of(context).padding.top;
 
-    print('$cityData["name"]');
+    print('${cityData["name"]}');
+
     return Consumer<AppData>(
         builder: (ctx, appdata, child) => Scaffold(
             key: _scaffoldKey,
@@ -22,24 +27,29 @@ class CityPage extends StatelessWidget {
             backgroundColor: Colors.white,
             body: Stack(
               children: <Widget>[
-                Container(
-                  height: 250,
-                  decoration: BoxDecoration(color: Colors.amber),
-                ),
-                Container(
-                  height: 50,
-                  margin: EdgeInsets.only(top: statusBarHeigth),
-                  decoration: BoxDecoration(color: Colors.greenAccent),
-                  child: IconButton(
-                    icon: Icon(
-                      Icons.arrow_back,
-                      color: Colors.white,
-                    ),
-                    onPressed: () {},
+                // Container(
+                //   height: 250,
+                //   decoration: BoxDecoration(color: Colors.amber),
+                //   child: Image.network(cityData["places"][0]["img"]),
+                // ),
+
+                Positioned(
+                  top: 0,
+                  left: 0,
+                  bottom: 250,
+                  right: 0,
+                  child: Image.network(
+                    cityData["places"][0]["img"],
+                    fit: BoxFit.cover,
                   ),
                 ),
 
-                /*
+                /*No wireframe do design, faz sentido o icone de voltar nese local,
+                porém a ação de clique não funciona, pois nossa ListView está sobreposto a este componente.
+                Basta inverter aqui no código a ordem dos componentes que tudo funciona.
+                O layout ficará a mesma coisa.*/
+
+                /*---- Hint ---------
                 O List View utiliza a tela toda. Ao usar este componente com margem,
                 após uma imagem, teremos o efeito de rolagem dinâmica.
                 */
@@ -53,15 +63,49 @@ class CityPage extends StatelessWidget {
                     Container(
                       margin: EdgeInsets.only(top: 220),
                       decoration: BoxDecoration(
-                        color: Colors.blueGrey,
+                        color: Colors.white,
                         borderRadius: BorderRadius.circular(20),
                       ),
-                      child: Container(
-                        height: 1000,
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              Column(
+                                children: [
+                                  Text(
+                                    cityData['name'],
+                                    style: TextStyle(
+                                      fontFamily: 'Helvetica Neue',
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Text('Nome cidade...'),
+                                ],
+                              ),
+                              Text('...'),
+                            ],
+                          )
+                        ],
                       ),
                     ),
                   ],
-                )
+                ),
+
+                Container(
+                  height: 50,
+                  margin: EdgeInsets.only(top: statusBarHeigth),
+                  //decoration: BoxDecoration(color: Colors.greenAccent),
+                  child: IconButton(
+                    icon: Icon(
+                      Icons.arrow_back,
+                      color: Colors.white,
+                    ),
+                    onPressed: () {
+                      backButtonAction(context);
+                    },
+                  ),
+                ),
               ],
             )));
   }

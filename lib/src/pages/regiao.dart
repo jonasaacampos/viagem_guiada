@@ -69,7 +69,7 @@ class RegionPage extends StatelessWidget {
                     ),
                     Container(
                       margin: EdgeInsets.only(bottom: 15),
-                      height: 130,
+                      height: 150,
                       child: ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemCount: cidades.length,

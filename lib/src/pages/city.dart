@@ -183,7 +183,10 @@ class CityPage extends StatelessWidget {
                             thickness: 1,
                           ),
                           Container(
-                            margin: EdgeInsets.all(10),
+                            margin: EdgeInsets.only(
+                              bottom: 15,
+                              top: 10,
+                            ),
                             child: Center(
                               child: Text(
                                 'Principais pontos turísticos',
@@ -200,15 +203,49 @@ class CityPage extends StatelessWidget {
                             shrinkWrap: true,
                             physics: NeverScrollableScrollPhysics(),
                             crossAxisCount: 2,
+                            childAspectRatio: 10 / 11,
                             children: List.generate(cityData['places'].length,
                                 (index) {
-                              return (Container(
-                                width: 100,
-                                height: 100,
-                                decoration:
-                                    BoxDecoration(color: Colors.black87),
-                                margin: EdgeInsets.all(10),
-                              ));
+                              return Container(
+                                child: Column(
+                                  children: [
+                                    Expanded(
+                                      child: AspectRatio(
+                                        aspectRatio: 1 / 1,
+                                        child: ClipRRect(
+                                          child: Image.network(
+                                            cityData['places'][index]['img'],
+                                            fit: BoxFit.cover,
+                                          ),
+                                          borderRadius:
+                                              BorderRadius.circular(20),
+                                        ),
+                                      ),
+                                    ),
+                                    Container(
+                                      margin: EdgeInsets.only(top: 5),
+                                      child: Text(
+                                        cityData['places'][index]['name'],
+                                        style: TextStyle(
+                                            fontFamily: 'Helvetica Neue',
+                                            fontSize: 12,
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.black),
+                                      ),
+                                    ),
+                                    Container(
+                                      margin: EdgeInsets.only(bottom: 15),
+                                      child: Text(
+                                        'Ponto turístico',
+                                        style: TextStyle(
+                                            fontFamily: 'Helvetica Neue',
+                                            fontSize: 12,
+                                            color: Colors.grey),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              );
                             }),
                           )
                         ],

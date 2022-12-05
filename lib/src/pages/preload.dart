@@ -70,7 +70,7 @@ class _PreLoadPage extends State<PreLoadPage> {
             style: textStyleTitle,
           ),
           Container(
-            padding: EdgeInsets.all(30),
+            padding: EdgeInsets.all(20),
             child: Center(
               child: Text(
                 HomePage.appSlogan,

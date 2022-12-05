@@ -5,10 +5,24 @@ import '../partials/customAppBar.dart';
 import '../partials/customDrawer.dart';
 import '../partials/cityBox.dart';
 
-class SearchPage extends StatelessWidget {
+class SearchPage extends StatefulWidget {
+  @override
+  _SearchPage createState() => _SearchPage();
+}
+
+class _SearchPage extends State<SearchPage> {
   var listaResultadoBusca = [];
 
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
+
+  void doSearch(pageContext, text) async {
+    var newList =
+        await Provider.of<AppData>(pageContext, listen: false).searchCity(text);
+
+    setState(() {
+      listaResultadoBusca = newList;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -28,30 +42,27 @@ class SearchPage extends StatelessWidget {
             margin: EdgeInsets.all(10),
             child: TextField(
               decoration: InputDecoration(
-                hintText: 'Digite o nome da cidade',
-                border: OutlineInputBorder(),
-                suffixIcon: Icon(
-                  Icons.search,
-                  size: 30,
-                ),
-              ),
+                  hintText: 'Digite o nome da cidade',
+                  border: OutlineInputBorder(),
+                  suffixIcon: Icon(Icons.search, size: 30)),
+              onChanged: (text) {
+                doSearch(context, text);
+              },
             ),
           ),
-          GridView.count(
-              crossAxisCount: 2,
-              shrinkWrap: true,
-              children: List.generate(
-                listaResultadoBusca.length,
-                ((index) {
+          Expanded(
+            child: GridView.count(
+                crossAxisCount: 2,
+                //shrinkWrap: true,
+                children: List.generate(listaResultadoBusca.length, ((index) {
                   return CityBox(
-                    data: listaResultadoBusca[index],
-                    onTap: (cityData) {
-                      // ignore: avoid_print
-                      print(cityData['name']);
-                    },
-                  );
-                }),
-              )),
+                      data: listaResultadoBusca[index],
+                      onTap: (cityData) {
+                        // ignore: avoid_print
+                        print(cityData['name']);
+                      });
+                }))),
+          )
         ]),
       ),
     );

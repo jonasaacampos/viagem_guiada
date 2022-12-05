@@ -7,6 +7,31 @@ class AppData with ChangeNotifier {
   var data = [];
   var favorites = [];
 
+  List searchCity(text) {
+    List result = [];
+
+    text = text.trim().toLowerCase();
+
+    //proteção para caso usuario não entre com nenhum dado
+    //caso envie com campo vazio, sem essa proteção apareceria todos os registros.
+
+    if (text == '') {
+      return result;
+    }
+
+    for (var regioes in data) {
+      for (var country in regioes['countries']) {
+        for (var city in country['cities']) {
+          if (city['name'].toLowerCase().contains(text)) {
+            result.add(city);
+          }
+        }
+      }
+    }
+
+    return result;
+  }
+
   bool isFavorite(cityName) {
     return favorites.contains(cityName);
   }

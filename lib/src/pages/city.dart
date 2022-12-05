@@ -224,7 +224,7 @@ class _CityPage extends State<CityPage> {
                         ),
                         child: Center(
                           child: Text(
-                            'Locais Citados na obra',
+                            'Locais Citados / Dicas de locais',
                             style: TextStyle(
                               fontFamily: 'Helvetica Neue',
                               fontSize: 18,

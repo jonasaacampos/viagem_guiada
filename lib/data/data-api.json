@@ -40,7 +40,7 @@
                         "places": [
                             {
                                 "name": "Chapada Gaúcha",
-                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/chapada-gaucha-parque-nacional.jpg"
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/chapada-gaucha.jpg"
                             },
                             {
                                 "name": "Parque Nacional Grande Sertão Veredas",
@@ -202,7 +202,7 @@
                 "name": "Taubaté, São Paulo",
                 "cities": [
                     {
-                        "name": "Campinas",
+                        "name": "Taubaté",
                         "review": "4.2",
                         "description": "As aventuras de Pedrinho, Narizinho e Emília, a boneca de pano, fizeram parte da infância de vários brasileiros. Para escrevê-las, Monteiro Lobato se inspirou na própria infância vivida em um sítio em Taubaté, que também se tornou o cenário da trama do livro. Para reviver a meninice, vale a pena visitar a Chácara do Visconde. O complexo de 20 mil metros quadrados abriga parque, coreto, pasto, plantações, o casarão colonial (da Vovó Benta) e um museu histórico e folclórico sobre as obras de Lobato. O espaço também recebe apresentações com os personagens do Sítio",
                         "book": "Sítio do Pica-Pau Amarelo",
@@ -210,10 +210,10 @@
                         "places": [
                             {
                                 "name": "Taubaté",
-                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/taubate.png"
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/taubate.jpg"
                             },
                             {
-                                "name": "Casa do Sol",
+                                "name": "Taubaté - Relógio",
                                 "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/taubate-relogio.jpg"
                             }
                         ]

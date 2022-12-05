@@ -9,7 +9,7 @@
                         "name": "Salvador",
                         "review": "4.2",
                         "description": "No livro, são citadas a Cidade Baixa, área litorânea e portuária de Salvador, onde os meninos viviam; e a Cidade Alta, zona mais moderna de Salvador atualmente. Na época, era um local mais residencial onde morava a elite da capital baiana. Hoje, as duas regiões possuem atrativos para turistas.",
-                        "book":"Capitães da Areia",
+                        "book": "Capitães da Areia",
                         "author": "Jorge Amado",
                         "places": [
                             {
@@ -25,694 +25,86 @@
                                 "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/salvador-cidade-alta.jpg"
                             }
                         ]
-                    },
-                    {
-                        "name": "Bordeaux",
-                        "review": "3.6",
-                        "description": "Ea drumstick fatback dolore reprehenderit. Picanha eiusmod chicken, ea dolore bresaola sunt consectetur pork loin tenderloin. Flank pig tri-tip, boudin lorem et labore ham porchetta do qui. Duis in lorem magna beef frankfurter ea eiusmod jowl cillum voluptate. Ut exercitation spare ribs tempor, rump pork chop hamburger culpa chicken ribeye dolor id doner.",
-                        "places": [
-                            {
-                                "name": "Place de la Bourse",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/place_de_la_bourse.jpg"
-                            },
-                            {
-                                "name": "Catedral de Bord\u00e9us",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/catedral_de_bordeus.jpg"
-                            },
-                            {
-                                "name": "Pra\u00e7a de Quinconces",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/praca_de_quinconces.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Cannes",
-                        "review": "5",
-                        "description": "Corned beef cow pig, chicken id in non aliqua adipisicing voluptate meatball. Ut ground round short ribs pork. Rump officia spare ribs prosciutto exercitation t-bone. Sint drumstick swine hamburger. Est kielbasa pancetta aute laboris landjaeger, eiusmod nisi culpa tenderloin bresaola venison excepteur. Dolore boudin andouille short ribs proident, eu ex fugiat.",
-                        "places": [
-                            {
-                                "name": "L\u00e9rins Islands",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/lerins_islands.jpg"
-                            },
-                            {
-                                "name": "Promenade de la Croisette",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/promenade_de_la_croisette.jpg"
-                            },
-                            {
-                                "name": "\u00cele SainteMarguerite",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/ile_sainte_marguerite.jpg"
-                            }
-                        ]
                     }
                 ]
             },
             {
-                "name": "Spain",
+                "name": "Chapada Gaúcha, Minas Gerais",
                 "cities": [
                     {
-                        "name": "Madrid",
+                        "name": "Chapada Gaúcha",
                         "review": "4.2",
-                        "description": "Ipsum frankfurter adipisicing, ut enim ham minim tri-tip. Burgdoggen irure sint, meatloaf ut reprehenderit alcatra. Aliquip sunt lorem spare ribs officia pork ut consectetur strip steak hamburger eu. Non turkey dolor, tongue beef ullamco prosciutto labore aliqua chislic in minim exercitation.",
+                        "description": "No livro, são citadas a Cidade Baixa, área litorânea e portuária de Salvador, onde os meninos viviam; e a Cidade Alta, zona mais moderna de Salvador atualmente. Na época, era um local mais residencial onde morava a elite da capital baiana. Hoje, as duas regiões possuem atrativos para turistas.",
+                        "book": "Capitães da Areia",
+                        "author": "Jorge Amado",
                         "places": [
                             {
-                                "name": "Pal\u00e1cio Real de Madrid",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/palacio_real_de_madrid.jpg"
+                                "name": "Chapada Gaúcha",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/salvador.jpg"
                             },
                             {
-                                "name": "Plaza Mayor",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/plaza_mayor.jpg"
-                            },
-                            {
-                                "name": "Museu do Prado",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/museu_do_prado.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Barcelona",
-                        "review": "3.6",
-                        "description": "Ut beef sed, beef ribs incididunt ex sint cow ipsum irure occaecat jerky qui burgdoggen. Aute kevin fatback ipsum, ground round drumstick sint consectetur culpa shank frankfurter. Boudin pariatur spare ribs minim, dolore occaecat pork chop excepteur chuck t-bone. Mollit exercitation voluptate sausage, venison cillum pastrami commodo chuck id officia. Sed occaecat rump, cupidatat duis et proident short loin salami beef ribs.",
-                        "places": [
-                            {
-                                "name": "Templo Expiat\u00f3rio da Sagrada Fam\u00edlia",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/templo_expiatorio_da_sagrada_familia.jpg"
-                            },
-                            {
-                                "name": "Parque G\u00fcell",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/parque_guell.jpg"
-                            },
-                            {
-                                "name": "Casa Mil\u00e0",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/casa_mila.jpg"
+                                "name": "Parque Nacional Grande Sertão Veredas",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/salvador-cidade-baixa.jpg"
                             }
                         ]
                     }
                 ]
-            },
-            {
-                "name": "Italy",
-                "cities": [
-                    {
-                        "name": "Rome",
-                        "review": "4.2",
-                        "description": "Consectetur commodo pork shoulder qui in mollit. Minim veniam aliqua, cow leberkas pork short ribs salami. Jowl quis proident tri-tip leberkas, pork loin filet mignon swine bresaola eiusmod sirloin ribeye t-bone. Tenderloin pariatur lorem, tempor hamburger bresaola magna porchetta shank. Ut ribeye ad sausage kevin, t-bone anim chislic dolore cupim adipisicing. Shankle pork swine jerky pastrami leberkas.",
-                        "places": [
-                            {
-                                "name": "Coliseu",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/coliseu.jpg"
-                            },
-                            {
-                                "name": "Bas\u00edlica de S\u00e3o Pedro",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/basilica_de_sao_pedro.jpg"
-                            },
-                            {
-                                "name": "Pante\u00e3o",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/panteao.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Milan",
-                        "review": "3.6",
-                        "description": "Ham hock adipisicing sed id. Pastrami ut swine tongue aute culpa. Pork salami in bresaola in. Flank pastrami meatball adipisicing brisket qui esse shankle id ipsum exercitation in. Cillum labore sed laborum in. Magna in ham beef ribs culpa ground round laborum beef consectetur leberkas burgdoggen prosciutto.",
-                        "places": [
-                            {
-                                "name": "Catedral de Mil\u00e3o",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/catedral_de_milao.jpg"
-                            },
-                            {
-                                "name": "Galeria Vittorio Emanuele II",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/galeria_vittorio_emanuele_ii.jpg"
-                            },
-                            {
-                                "name": "Castello Sforzesco",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/castello_sforzesco.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Naples",
-                        "review": "5",
-                        "description": "Esse proident picanha tri-tip deserunt frankfurter. Cupidatat cupim kielbasa chislic. Jowl non hamburger sed. Minim in frankfurter commodo esse anim capicola excepteur nisi et prosciutto. Alcatra prosciutto magna dolore meatloaf sed bresaola leberkas swine aliquip turkey.",
-                        "places": [
-                            {
-                                "name": "Ves\u00favio",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/vesuvio.jpg"
-                            },
-                            {
-                                "name": "Museu Arqueol\u00f3gico de N\u00e1poles",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/museu_arqueologico_de_napoles.jpg"
-                            },
-                            {
-                                "name": "Pal\u00e1cio Real",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/palacio_real.jpg"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Turkey",
-                "cities": [
-                    {
-                        "name": "Istanbul",
-                        "review": "4.2",
-                        "description": "Landjaeger adipisicing buffalo lorem flank. Commodo in dolore pork strip steak ribeye consequat beef. Deserunt anim swine aliquip voluptate ground round pariatur commodo meatball. Aliquip pariatur nulla doner elit eu fugiat nisi.",
-                        "places": [
-                            {
-                                "name": "Santa Sofia",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/santa_sofia.jpg"
-                            },
-                            {
-                                "name": "Mesquita Azul",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/mesquita_azul.jpg"
-                            },
-                            {
-                                "name": "Pal\u00e1cio de Topkapi",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/palacio_de_topkapi.jpg"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Germany",
-                "cities": [
-                    {
-                        "name": "Berlin",
-                        "review": "4.2",
-                        "description": "Culpa burgdoggen drumstick velit pancetta frankfurter. Est turducken jowl, excepteur venison quis kielbasa. Shankle pastrami in esse alcatra nisi biltong adipisicing. Turkey non pariatur et leberkas bresaola, ball tip incididunt in ex excepteur mollit cow culpa in.",
-                        "places": [
-                            {
-                                "name": "Port\u00e3o de Brandemburgo",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/portao_de_brandemburgo.jpg"
-                            },
-                            {
-                                "name": "Pal\u00e1cio do Reichstag",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/palacio_do_reichstag.jpg"
-                            },
-                            {
-                                "name": "Ilha dos Museus",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/ilha_dos_museus.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Hamburg",
-                        "review": "3.6",
-                        "description": "Tail shoulder nisi buffalo enim consequat proident. Eiusmod ball tip jowl hamburger do duis beef magna pig doner commodo ut lorem tail. Sunt officia shoulder nisi mollit. In occaecat aliqua brisket beef t-bone. Brisket beef elit duis lorem sed quis frankfurter tempor nisi ut tail. Tenderloin tail nostrud ex irure tri-tip spare ribs laborum ham cupim in minim sunt elit boudin.",
-                        "places": [
-                            {
-                                "name": "Speicherstadt",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/speicherstadt.jpg"
-                            },
-                            {
-                                "name": "MiniaturWunderland",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/miniatur_wunderland.jpg"
-                            },
-                            {
-                                "name": "Elbphilharmonie",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/elbphilharmonie.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Munich",
-                        "review": "5",
-                        "description": "Sint shank capicola irure beef ribs. Culpa enim doner, nisi fatback jowl chislic laboris kevin. Beef adipisicing short ribs andouille capicola sint. Sed pancetta tenderloin, short ribs qui shankle hamburger in in.",
-                        "places": [
-                            {
-                                "name": "Marienplatz",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/marienplatz.jpg"
-                            },
-                            {
-                                "name": "Englischer Garten",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/englishcher_garten.jpg"
-                            },
-                            {
-                                "name": "Pal\u00e1cio Nymhenburg",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/palacio_nymhenburg.jpg"
-                            }
-                        ]
-                    }
-                ]
-            }
+            }           
         ]
     },
+
     {
-        "name": "AMERICAS",
+        "name": "Centro Oeste/Sudeste",
         "countries": [
             {
-                "name": "United States",
+                "name": "Salvador, Bahia",
                 "cities": [
-                    {
-                        "name": "New York",
-                        "review": "4.2",
-                        "description": "Qui sunt voluptate, leberkas ut dolor pariatur culpa. Officia shoulder dolore ribeye ground round, biltong nisi beef shankle. Shank shoulder dolore ea magna. Esse nisi veniam, consectetur occaecat t-bone jerky chuck non in cupim fatback laboris flank pork loin. Ground round mollit cupim, velit est eu short ribs swine. Burgdoggen laboris mollit exercitation.",
-                        "places": [
-                            {
-                                "name": "Estatua da Liberdade",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/estatua_da_liberdade.jpg"
-                            },
-                            {
-                                "name": "Central Park",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/central_park.jpg"
-                            },
-                            {
-                                "name": "Times Square",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/times_square.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Los Angeles",
-                        "review": "3.6",
-                        "description": "Reprehenderit sed dolor, in short loin exercitation do. Ad cupim voluptate, ullamco tenderloin velit cow bacon officia pork loin ut tongue landjaeger. Beef ribs brisket swine chuck in exercitation est anim, consequat bresaola. Shoulder elit venison filet mignon frankfurter ex. Porchetta brisket turkey aliqua.",
-                        "places": [
-                            {
-                                "name": "Universal Studios",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/universal_studios.jpg"
-                            },
-                            {
-                                "name": "Disneyland",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/disneyland.jpg"
-                            },
-                            {
-                                "name": "Observat\u00f3rio Griffith",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/observatorio_griffith.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Chicago",
-                        "review": "5",
-                        "description": "Buffalo dolore officia nisi turkey laborum cow ut esse. In beef veniam incididunt, pork boudin shoulder flank in doner dolore lorem. Chuck picanha consequat filet mignon. Pork ut consequat mollit salami sed.",
-                        "places": [
-                            {
-                                "name": "Millenium Park",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/millenium_park.jpg"
-                            },
-                            {
-                                "name": "Willis Tower",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/willis_tower.jpg"
-                            },
-                            {
-                                "name": "Cais Naval",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/cais_naval.jpg"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Mexico",
-                "cities": [
-                    {
-                        "name": "Mexico City",
-                        "review": "4.2",
-                        "description": "Doner salami strip steak, turkey chuck sint pancetta. Hamburger dolore porchetta consectetur ex officia pancetta shoulder ham hock landjaeger lorem pork pastrami. Boudin exercitation tri-tip, aliquip drumstick labore cillum pancetta biltong fatback prosciutto. Ground round short ribs do burgdoggen nostrud. Proident nostrud laborum in in, t-bone pork enim sunt andouille tongue commodo.",
-                        "places": [
-                            {
-                                "name": "Pra\u00e7a da Constitui\u00e7\u00e3o",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/praca_da_constituicao.jpg"
-                            },
-                            {
-                                "name": "Chapultepec",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/chapultepec.jpg"
-                            },
-                            {
-                                "name": "Museu Nacional de Antropologia",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/museu_nacional_de_antropologia.jpg"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Canada",
-                "cities": [
-                    {
-                        "name": "Toronto",
-                        "review": "4.2",
-                        "description": "Pork chop fatback shoulder, flank turducken nostrud cupim duis ullamco cow. Filet mignon ribeye kevin cow alcatra pig in brisket burgdoggen ut ut. Ut adipisicing short ribs, leberkas landjaeger et aliqua veniam lorem velit tenderloin corned beef ground round occaecat frankfurter. In ea picanha, alcatra dolor frankfurter tri-tip excepteur venison t-bone enim est ut.",
-                        "places": [
-                            {
-                                "name": "Torre CN",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/torre_cn.jpg"
-                            },
-                            {
-                                "name": "Casa Loma",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/casa_loma.jpg"
-                            },
-                            {
-                                "name": "Museu Real de Ont\u00e1rio",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/museu_real_de_ontario.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Ottawa",
-                        "review": "3.6",
-                        "description": "Eu mollit prosciutto beef ribs pastrami esse turducken. Pork chop incididunt lorem, ex reprehenderit shoulder deserunt leberkas kevin tempor corned beef boudin est strip steak eu. Sed lorem proident, consectetur ad chislic fatback adipisicing shank shankle. Sint ullamco consequat ut ad. Sed pig short loin, in nulla pastrami magna pancetta. Chuck nostrud eiusmod aliquip incididunt, bacon beef ribs drumstick strip steak boudin velit sunt capicola. Short ribs sed dolore meatball landjaeger tri-tip.",
-                        "places": [
-                            {
-                                "name": "Canal Rideau",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/canal_rideau.jpg"
-                            },
-                            {
-                                "name": "Parliament Hill",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/parliament_hill.jpg"
-                            },
-                            {
-                                "name": "Galeria Nacional do Canad\u00e1",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/galeria_nacional_do_canada.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Vancouver",
-                        "review": "5",
-                        "description": "Prosciutto aliquip ham hock cillum porchetta sausage, proident turducken magna. Ex tenderloin tempor ribeye enim labore. Buffalo chicken venison reprehenderit turkey, dolor pork belly chislic spare ribs strip steak filet mignon pastrami et exercitation. Minim in pig porchetta, fatback sint kevin shoulder dolore occaecat beef ribs ad excepteur laborum. Duis swine tail pancetta, dolore in capicola eiusmod. Ut aute minim, beef ribs sed consequat biltong prosciutto salami anim tempor in sunt. Veniam duis nulla turducken, bresaola id nisi voluptate dolore.",
-                        "places": [
-                            {
-                                "name": "Parque de Stanley",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/parque_de_stanley.jpg"
-                            },
-                            {
-                                "name": "Ponte Suspensa de Capilano",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/ponte_suspensa_de_capilano.jpg"
-                            },
-                            {
-                                "name": "Granville Island",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/granville_island.jpg"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Argentina",
-                "cities": [
-                    {
-                        "name": "Buenos Aires",
-                        "review": "4.2",
-                        "description": "Irure tri-tip mollit quis consequat. Bresaola in est, biltong ham hock ullamco minim culpa cillum alcatra aute tenderloin jowl hamburger chislic. Chicken pork chop sausage in picanha proident kielbasa laboris aliqua spare ribs sunt frankfurter mollit pastrami quis. Ball tip aliqua ham velit leberkas cow strip steak meatball dolor ground round ribeye chuck commodo. Turkey in cupim, strip steak lorem beef tenderloin.",
-                        "places": [
-                            {
-                                "name": "La Boca",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/la_boca.jpg"
-                            },
-                            {
-                                "name": "Cemit\u00e9rio da Recoleta",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/cemiterio_da_recoleta.jpg"
-                            },
-                            {
-                                "name": "Pra\u00e7a de Maio",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/praca_de_maio.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "C\u00f3rdoba",
-                        "review": "3.6",
-                        "description": "Ullamco andouille dolor ribeye velit aliqua. Fugiat velit adipisicing pancetta. Boudin jowl andouille prosciutto, commodo quis et esse. Pork loin meatball filet mignon, cow pork hamburger elit exercitation chicken aliquip consequat pastrami. Fatback jerky elit hamburger doner aute officia pork belly sint. Jowl ut ground round excepteur. Ullamco mollit laborum, tenderloin alcatra jerky sint deserunt.",
-                        "places": [
-                            {
-                                "name": "Jesuit Block",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/jesuit_block.jpg"
-                            },
-                            {
-                                "name": "Museu Superior de Bellas Artes Evita",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/museu_superior_de_bellas_artes_evita.jpg"
-                            },
-                            {
-                                "name": "Paseo Del Buen Pastor",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/paseo_del_buen_pastor.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Rosario",
-                        "review": "5",
-                        "description": "Capicola cillum doner chuck irure tail velit filet mignon pastrami meatball. Qui turducken exercitation ex aliquip venison cow flank tri-tip doner duis nostrud. Alcatra fugiat biltong, lorem ullamco jerky frankfurter tri-tip pork loin spare ribs burgdoggen. Lorem bresaola adipisicing picanha sunt short ribs tail irure.",
-                        "places": [
-                            {
-                                "name": "Monumento Nacional a la Bandera",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/monumento_nacional_a_la_bandera.jpg"
-                            },
-                            {
-                                "name": "Parque da Independ\u00eancia",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/parque_da_independencia.jpg"
-                            },
-                            {
-                                "name": "Ponte Ros\u00e1rioVictoria",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/ponte_rosario_victoria.jpg"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Brazil",
-                "cities": [
-                    {
-                        "name": "S\u00e3o Paulo",
-                        "review": "4.2",
-                        "description": "Tempor pork belly nulla cow proident kielbasa. In aliquip jerky, ullamco esse occaecat anim fugiat. In exercitation aliquip, ut frankfurter tri-tip leberkas jowl minim nisi proident pork non bacon laboris. Alcatra in chuck flank dolore. Duis in turkey, exercitation voluptate kevin commodo frankfurter aliqua t-bone labore fatback shankle lorem enim. In consequat minim boudin porchetta pig excepteur doner beef tri-tip salami veniam dolore. Meatloaf nulla pork belly in.",
-                        "places": [
-                            {
-                                "name": "Parque Ibirapuera",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/parque_ibirapuera.jpg"
-                            },
-                            {
-                                "name": "Avenida Paulista",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/avenida_paulista.jpg"
-                            },
-                            {
-                                "name": "Museu de Arte de S\u00e3o Paulo",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/museu_de_arte_de_sao_paulo.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Rio de Janeiro",
-                        "review": "3.6",
-                        "description": "In chuck id turducken veniam. In meatloaf hamburger tail pork belly chuck deserunt picanha sausage laboris. Bresaola adipisicing in qui esse culpa sint irure cupim cillum. Velit sausage proident burgdoggen. Officia venison meatball frankfurter chislic sed nulla sausage jerky voluptate lorem quis elit jowl. Dolor in ex exercitation, consequat meatloaf meatball burgdoggen. Tongue sirloin pastrami corned beef sausage ball tip, duis anim quis labore.",
-                        "places": [
-                            {
-                                "name": "Cristo Redentor",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/cristo_redentor.jpg"
-                            },
-                            {
-                                "name": "P\u00e3o de A\u00e7\u00facar",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/pao_de_acucar.jpg"
-                            },
-                            {
-                                "name": "Copacabana",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/copacabana.jpg"
-                            }
-                        ]
-                    },
                     {
                         "name": "Salvador",
-                        "review": "5",
-                        "description": "Tongue kevin meatloaf ball tip, aliqua pig nulla ham hock ipsum jowl dolore. Veniam pork chop excepteur, occaecat mollit eu ut biltong pork ut shoulder adipisicing leberkas fugiat porchetta. Incididunt pig velit exercitation in quis. Ground round spare ribs t-bone shank, fatback jowl brisket quis consequat ea drumstick beef ribs. Hamburger chicken biltong, pork belly ex leberkas in esse consectetur labore ham hock tenderloin. Tail venison prosciutto, ea turducken aliquip doner elit exercitation lorem cillum jerky. Proident tempor aliquip, pork kevin ribeye boudin aliqua in.",
-                        "places": [
-                            {
-                                "name": "Elevador Lacerda",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/elevador_lacerda.jpg"
-                            },
-                            {
-                                "name": "Mercado Modelo",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/mercado_modelo.jpg"
-                            },
-                            {
-                                "name": "Ba\u00eda de todos os santos",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/baia_de_todos_os_santos.jpg"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "AFRICA",
-        "countries": [
-            {
-                "name": "Morocco",
-                "cities": [
-                    {
-                        "name": "Fez",
                         "review": "4.2",
-                        "description": "Bresaola mollit pork chop tail, bacon eu ground round. Pork chop meatloaf exercitation, veniam nisi minim dolor enim velit fatback. Eiusmod doner pastrami, boudin tongue labore irure. Shoulder labore short loin occaecat chuck adipisicing pork loin ut ex pork belly porchetta corned beef. Filet mignon adipisicing porchetta anim pancetta in cupidatat t-bone short ribs in.",
+                        "description": "No livro, são citadas a Cidade Baixa, área litorânea e portuária de Salvador, onde os meninos viviam; e a Cidade Alta, zona mais moderna de Salvador atualmente. Na época, era um local mais residencial onde morava a elite da capital baiana. Hoje, as duas regiões possuem atrativos para turistas.",
+                        "book": "Capitães da Areia",
+                        "author": "Jorge Amado",
                         "places": [
                             {
-                                "name": "Madra\u00e7a Bu Inania",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/madraca_bu_inania.jpg"
+                                "name": "Salvador",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/salvador.jpg"
                             },
                             {
-                                "name": "Madra\u00e7a Attarine",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/madraca_attarine.jpg"
+                                "name": "Cidade Baixa",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/salvador-cidade-baixa.jpg"
                             },
                             {
-                                "name": "Zaouia Moulay Idriss II",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/zaouia_moulay_idriss_ii.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Marrakech",
-                        "review": "3.6",
-                        "description": "Salami ut brisket mollit tri-tip tempor shoulder irure, corned beef short loin ham hock. Turducken chuck kielbasa veniam turkey alcatra adipisicing tail mollit dolore ball tip venison ham hock do. Elit beef pork anim nisi excepteur. Doner turducken enim veniam ut duis in flank brisket. Jowl cow ut swine nulla. Pork belly chislic swine, deserunt chuck picanha culpa buffalo sed. Dolore boudin pariatur kevin esse.",
-                        "places": [
-                            {
-                                "name": "Jemaa ElFna",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/jemaa_el_fna.jpg"
-                            },
-                            {
-                                "name": "Jardim Majorelle",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/jardim_majorelle.jpg"
-                            },
-                            {
-                                "name": "Pal\u00e1cio da Bahia",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/palacio_da_bahia.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Casablanca",
-                        "review": "5",
-                        "description": "Enim ball tip meatloaf velit. Fatback occaecat tongue, flank laboris ullamco nulla consequat chuck bresaola boudin. Ut excepteur commodo, pork chop in cupidatat ut turkey filet mignon shoulder porchetta picanha. In pig bacon reprehenderit meatball duis cupim, est dolore. Ipsum swine sunt deserunt tail kevin sausage. Pork belly tongue veniam ullamco tail, shoulder culpa cow kielbasa capicola eiusmod beef.",
-                        "places": [
-                            {
-                                "name": "Mesquita Hassan II",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/mesquita_hassan_ii.jpg"
-                            },
-                            {
-                                "name": "Rick\u2019s Caf\u00e9",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/rick_cafe.jpg"
-                            },
-                            {
-                                "name": "Catedral do Sagrado Cora\u00e7\u00e3o de Casablanca",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/catedral_do_sagrado_coracao_de_casablanca.jpg"
+                                "name": "Cidade Alta",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/salvador-cidade-alta.jpg"
                             }
                         ]
                     }
                 ]
             },
             {
-                "name": "Egypt",
+                "name": "Chapada Gaúcha, Minas Gerais",
                 "cities": [
                     {
-                        "name": "Cairo",
+                        "name": "Chapada Gaúcha",
                         "review": "4.2",
-                        "description": "Burgdoggen consequat ullamco, sint exercitation jerky occaecat ipsum pork belly pork loin. Beef ribs rump kielbasa ad, minim dolore bresaola salami chicken swine occaecat. Brisket sirloin consectetur ut ad drumstick, commodo pancetta tenderloin lorem. Pastrami venison cupidatat, kevin hamburger est turducken kielbasa occaecat ham laborum ad fugiat ut officia.",
+                        "description": "No livro, são citadas a Cidade Baixa, área litorânea e portuária de Salvador, onde os meninos viviam; e a Cidade Alta, zona mais moderna de Salvador atualmente. Na época, era um local mais residencial onde morava a elite da capital baiana. Hoje, as duas regiões possuem atrativos para turistas.",
+                        "book": "Capitães da Areia",
+                        "author": "Jorge Amado",
                         "places": [
                             {
-                                "name": "Pir\u00e2mides de Giz\u00e9",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/piramides_de_gize.jpg"
+                                "name": "Chapada Gaúcha",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/salvador.jpg"
                             },
                             {
-                                "name": "Museu Eg\u00edpcio",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/museu_egipcio.jpg"
-                            },
-                            {
-                                "name": "Khan el Khalili",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/khan_el_khalili.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Alexandria",
-                        "review": "3.6",
-                        "description": "Dolor turducken bacon hamburger meatball. Short ribs cow aliquip laborum occaecat labore tongue cillum pig. Rump commodo landjaeger cillum, andouille quis id lorem jerky irure. Minim exercitation nisi lorem ullamco ex quis.",
-                        "places": [
-                            {
-                                "name": "Cidadela de Qaitbay",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/cidadela_de_qaitbay.jpg"
-                            },
-                            {
-                                "name": "Coluna de Pompeu",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/coluna_de_pompeu.jpg"
-                            },
-                            {
-                                "name": "Montaza Palace",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/montaza_palace.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Giza",
-                        "review": "5",
-                        "description": "Incididunt velit bresaola, qui aute veniam chicken elit. Aliqua dolore prosciutto pig non veniam pork belly tempor magna ad deserunt doner incididunt fatback. Ipsum spare ribs leberkas ball tip tempor capicola beef ribs enim id exercitation irure. Chicken shankle velit shank. Aute buffalo sausage in incididunt chuck minim sirloin alcatra hamburger.",
-                        "places": [
-                            {
-                                "name": "Grande Esfinge de Giz\u00e9",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/grande_esfinge_de_gize.jpg"
-                            },
-                            {
-                                "name": "Mesquita de Muhammad Ali",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/mesquita_de_muhammad_ali.jpg"
+                                "name": "Parque Nacional Grande Sertão Veredas",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/salvador-cidade-baixa.jpg"
                             }
                         ]
                     }
                 ]
-            },
-            {
-                "name": "South Africa",
-                "cities": [
-                    {
-                        "name": "Johannesburg",
-                        "review": "4.2",
-                        "description": "Ea reprehenderit biltong quis beef ribs ad laborum meatloaf voluptate do ball tip. Magna pork loin ut, velit corned beef cow chislic bacon pork belly ea. Pariatur porchetta doner, est ut adipisicing quis in tempor tail do. T-bone incididunt eiusmod exercitation in aliquip leberkas chuck pastrami boudin pork chop. Prosciutto tongue eu dolore strip steak beef ribs eiusmod id nisi in spare ribs quis.",
-                        "places": [
-                            {
-                                "name": "Museu do Apartheid",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/museu_do_apartheid.jpg"
-                            },
-                            {
-                                "name": "Gold Reef City",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/gold_reef_city.jpg"
-                            },
-                            {
-                                "name": "Mandela House Museum",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/mandela_house_museum.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Soweto",
-                        "review": "3.6",
-                        "description": "Fatback est biltong chuck esse frankfurter ham hock ullamco. Sirloin lorem ut labore, esse mollit andouille quis. Strip steak elit laborum irure, beef ribs sint ea magna lorem. Esse strip steak pork chop filet mignon. Kielbasa eiusmod cillum, ham in adipisicing tri-tip flank deserunt sausage voluptate shankle veniam sunt.",
-                        "places": [
-                            {
-                                "name": "Hector Pieterson Memorial",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/hector_pieterson_memorial.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Cape Town",
-                        "review": "5",
-                        "description": "Pork tail pork loin, cillum laboris lorem ham velit qui incididunt duis occaecat beef ribs quis. Sint pig proident, qui alcatra velit spare ribs quis labore flank landjaeger. In ham laborum anim, adipisicing laboris cupidatat enim tongue id ipsum ham hock sint aute landjaeger. Turducken nostrud alcatra anim quis fatback buffalo jerky ullamco ham cillum adipisicing laboris in.",
-                        "places": [
-                            {
-                                "name": "Cabo da Boa Esperan\u00e7a",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/cabo_da_boa_esperanca.jpg"
-                            },
-                            {
-                                "name": "Parque Nacional Montanha da Mesa",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/parque_nacional_montanha_da_mesa.jpg"
-                            },
-                            {
-                                "name": "Ilha Robben",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/ilha_robben.jpg"
-                            }
-                        ]
-                    }
-                ]
-            }
+            }           
         ]
     }
+
 ]

@@ -163,7 +163,7 @@ class _CityPage extends State<CityPage> {
                           ),
 
                           /* Favorite ICON | Favoritos 
-                             * funcrion add or remote hear for visualization
+                             * funcrion add or remote heart for visualization
                              */
 
                           Container(
@@ -181,6 +181,22 @@ class _CityPage extends State<CityPage> {
                             ),
                           ),
                         ],
+                      ),
+                      Container(
+                        padding: EdgeInsets.only(
+                          top: 0,
+                          right: 15,
+                          bottom: 15,
+                          left: 15,
+                        ),
+                        child: Text(
+                          "📙 ${cityData['author']} - ${cityData['book']}",
+                          style: TextStyle(
+                              fontFamily: 'Helvetica Neue',
+                              fontSize: 14,
+                              fontWeight: FontWeight.normal,
+                              color: Colors.grey[600]),
+                        ),
                       ),
                       Container(
                         padding: EdgeInsets.only(
@@ -208,7 +224,7 @@ class _CityPage extends State<CityPage> {
                         ),
                         child: Center(
                           child: Text(
-                            'Principais pontos turísticos',
+                            'Locais Citados na obra',
                             style: TextStyle(
                               fontFamily: 'Helvetica Neue',
                               fontSize: 18,
@@ -253,12 +269,14 @@ class _CityPage extends State<CityPage> {
                                 ),
                                 Container(
                                   margin: EdgeInsets.only(bottom: 15),
+                                  alignment: Alignment.center,
                                   child: Text(
-                                    'Ponto turístico',
+                                    'Livro: ${cityData["book"]}',
                                     style: TextStyle(
-                                        fontFamily: 'Helvetica Neue',
-                                        fontSize: 12,
-                                        color: Colors.grey),
+                                      fontFamily: 'Helvetica Neue',
+                                      fontSize: 12,
+                                      color: Colors.grey,
+                                    ),
                                   ),
                                 ),
                               ],

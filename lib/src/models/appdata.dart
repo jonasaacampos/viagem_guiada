@@ -5,6 +5,22 @@ import 'package:http/http.dart' as http;
 
 class AppData with ChangeNotifier {
   var data = [];
+  var favorites = [];
+
+  bool isFavorite(cityName) {
+    return favorites.contains(cityName);
+  }
+
+  bool favorite(cityName) {
+    if (isFavorite(cityName)) {
+      favorites.remove(cityName);
+      return false;
+    } else {
+      favorites.add(cityName);
+      return true;
+    }
+  }
+
   // static const urlJsonApi = 'https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/data/data-api.json';
   static const urlJsonApi = 'https://api.b7web.com.br/flutter1wb';
 

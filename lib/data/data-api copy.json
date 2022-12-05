@@ -1,0 +1,144 @@
+[
+    {
+        "regiao": "Norte/Nordeste",
+        "cidades": [
+            {
+                "name": "Salvador, Bahia",
+                "foto": "lib/assets/img/salvador.jpg",
+                "review": "4.2",
+                "description": "No livro, são citadas a Cidade Baixa, área litorânea e portuária de Salvador, onde os meninos viviam; e a Cidade Alta, zona mais moderna de Salvador atualmente. Na época, era um local mais residencial onde morava a elite da capital baiana. Hoje, as duas regiões possuem atrativos para turistas.",
+                "livro": "Capitães da Areia, Jorge Amado",
+                "locais": [
+                    {
+                        "name": "Cidade Baixa",
+                        "img": "lib/assets/img/salvador-cidade-baixa.jpg"
+                    },
+                    {
+                        "name": "Cidade Alta",
+                        "img": "lib/assets/img/salvador-cidade-alta.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Chapada Gaúcha, Minas Gerais",
+                "review": "4.3",
+                "description": "A trama se passa majoritariamente onde hoje fica o pequeno município de Chapada Gaúcha, localizado quase na divisa com a Bahia. A visita até lá vale para conhecer o Parque Nacional Grande Sertão Veredas, com mais de 230 mil hectares de cerrado preservado. Com frases do livro espalhadas por toda sua extensão, o parque conta com trilhas que visam transportar o turista para o universo do livro.",
+                "livro": "Grande Sertão: Veredas, Guimarães Rosa",
+                "locais": [
+                    {
+                        "name": "Parque Nacional Grande Sertão Veredas",
+                        "img": "#image.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Rio Capibaribe (Recife), Pernambuco ",
+                "review": "4.0",
+                "description": "Na obra, o retirante parte da Serra da Costela, um local fictício que coincide com a nascente do Rio Capibaribe, que corta todo o estado desaguando no mar por Recife - e que seca durante os períodos sem chuva. Na capital pernambucana, o rio é responsável por garantir à cidade o apelido de “Veneza Brasileira”. É possível caminhar por suas margens pelo calçadão que ali existe e, partindo do Terminal Cais de Santa Rita, indo na direção norte, perceber referências arquitetônicas de diferentes épocas.",
+                "livro": "Morte e Vida Severina, João Cabral de Melo Neto",
+                "locais": [
+                    {
+                        "name": "Terminal Cais de Santa Rita",
+                        "img": "#image.jpg"
+                    },
+                    {
+                        "name": "Veneza Brasileira",
+                        "img": "#image.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Manaus, Amazonas",
+                "review": "4.0",
+                "description": "O primeiro romance do autor amazonense Milton Hatoum se passa em Manaus. Após muitos anos longe, uma mulher regressa à cidade de sua infância, buscando encontrar Emilie, a matriarca de uma família de origem libanesa que lá vive há gerações, mas tudo mudou. O relato, então, é a busca de um mundo perdido situado entre o Oriente e o Amazonas.",
+                "livro": "Relato de um certo Oriente”, Milton Hatoum",
+                "locais": [
+                    {
+                        "name": "Teatro Amazonas",
+                        "img": "#image.jpg"
+                    },
+                    {
+                        "name": "Cemitério São João Batista",
+                        "img": "#image.jpg"
+                    },
+                    {
+                        "name": "Mercado Municipal de Manaus ",
+                        "img": "#image.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "regiao": "Centro Oeste/Sudeste",
+        "cidades": [
+            {
+                "name": "Rio de Janeiro, Rio de Janeiro",
+                "review": "4.2",
+                "description": "A cidade do Rio de Janeiro sempre foi e talvez sempre será fonte de inspiração para escritores. No caso de Machado de Assis, um dos maiores autores brasileiros até hoje, a Cidade Maravilhosa, onde ele nasceu, é o cenário de muitas de suas obras.",
+                "livro": "Dom Casmurro, Machado de Assis",
+                "locais": [
+                    {
+                        "name": "Museu Nacional",
+                        "img": "#image.jpg"
+                    },
+                    {
+                        "name": "Paço Imperial",
+                        "img": "#image.jpg"
+                    },
+                    {
+                        "name": "Jardim Botânico",
+                        "img": "#image.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "São Paulo, São Paulo",
+                "review": "4.3",
+                "description": "Local de nascimento de Mário de Andrade, um dos principais nomes do Modernismo, é na capital paulistana que se situa o romance “Amar, verbo transitivo”, cuja trama gira em torno de uma família rica que contrata uma governanta alemã para ensinar ao filho adolescente sobre sexo, um tema tabu na época.",
+                "livro": "Amar, verbo instransitivo, Mário de Andrade"
+            },
+            {
+                "name": "Campinas, São Paulo",
+                "review": "4.0",
+                "description": "Apesar de nas obras da poetisa Hilda Hilst não ficar exatamente claro onde se localizam seus poemas e contos, os temas abordados por eles costumam ser bastante íntimos e pessoais, fazendo referência à própria vida da autora e suas questões com a própria obra, como no caso de alguns contos de seu primeiro livro em prosa, “Fluxo-Floema”.",
+                "livro": "Fluxo-Floema, Hilda Hilst",
+                "locais": [
+                    {
+                        "name": "Casa do Sol",
+                        "img": "#image.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Taubaté, São Paulo",
+                "review": "4.0",
+                "description": "As aventuras de Pedrinho, Narizinho e Emília, a boneca de pano, fizeram parte da infância de vários brasileiros. Para escrevê-las, Monteiro Lobato se inspirou na própria infância vivida em um sítio em Taubaté, que também se tornou o cenário da trama do livro. Para reviver a meninice, vale a pena visitar a Chácara do Visconde. O complexo de 20 mil metros quadrados abriga parque, coreto, pasto, plantações, o casarão colonial (da Vovó Benta) e um museu histórico e folclórico sobre as obras de Lobato. O espaço também recebe apresentações com os personagens do Sítio",
+                "livro": "Sítio do Pica-Pau Amarelo, de Monteiro Lobato",
+                "locais": [
+                    {
+                        "name": "#",
+                        "img": "#image.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "regiao": "SUL",
+        "cidades": [
+            {
+                "name": "Bagé, Rio Grande do Sul",
+                "review": "4.2",
+                "description": "“O Tempo e o Vento” é possivelmente a obra-prima do escritor gaúcho Érico Veríssimo. O romance, dividio em três volumes, se passa na cidade fictícia de Santa Fé e é um testemunho da expansão do Rio Grande do Sul e de seu povo, incluindo a criação da identidade do gaúcho.",
+                "livro": "O Tempo e o Vento, Érico Veríssimo",
+                "locais": [
+                    {
+                        "name": "#",
+                        "img": "#image.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+]

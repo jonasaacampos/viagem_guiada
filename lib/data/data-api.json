@@ -242,12 +242,12 @@
                                 "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/bage.jpg"
                             },
                             {
-                                "name": "Cidade Baixa",
+                                "name": "Catedrla São sebastião",
                                 "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/bage-catedral-sao-bebastiao.jpg"
                             },
                             {
-                                "name": "Cidade Alta",
-                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/bage-catedral-prefeitura.jpg"
+                                "name": "Prefeitura Municipal",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/bage-prefeitura.jpg"
                             }
                         ]
                     }

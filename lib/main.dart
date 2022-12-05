@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:viagem_guiada/src/pages/favorites.dart';
 import 'package:viagem_guiada/src/pages/search.dart';
 
 import 'src/models/appdata.dart';
 
 import 'src/pages/preload.dart';
 import 'src/pages/home.dart';
-import 'src/pages/search.dart';
 import 'src/pages/regiao.dart';
 import 'src/pages/listCity.dart';
 import 'src/pages/city.dart';
+import 'src/pages/search.dart';
+import 'src/pages/favorites.dart';
 
 void main() {
   runApp(MultiProvider(
@@ -33,6 +35,7 @@ class MyApp extends StatelessWidget {
         '/regiao': (context) => RegionPage(),
         '/listCity': (context) => ListCityPage(),
         '/city': (context) => CityPage(),
+        '/favorites': (context) => FavoritesPage(),
       },
       initialRoute: '/preload',
     );

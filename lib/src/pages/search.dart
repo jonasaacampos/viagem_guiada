@@ -58,8 +58,8 @@ class _SearchPage extends State<SearchPage> {
                   return CityBox(
                       data: listaResultadoBusca[index],
                       onTap: (cityData) {
-                        // ignore: avoid_print
-                        print(cityData['name']);
+                        Navigator.pushNamed(context, '/city',
+                            arguments: cityData);
                       });
                 }))),
           )

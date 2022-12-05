@@ -71,7 +71,7 @@ Widget CustomDrawer({
           ),
           title: Text('Cidades Salvas'),
           onTap: () {
-            Navigator.pushReplacementNamed(pageContext, '/favoritos');
+            Navigator.pushReplacementNamed(pageContext, '/favorites');
           },
         ),
       ],

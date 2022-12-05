@@ -7,6 +7,20 @@ class AppData with ChangeNotifier {
   var data = [];
   var favorites = [];
 
+  List favoritesCities() {
+    List result = [];
+
+    for (var favorite in favorites) {
+      List foundCities = this.searchCity(favorite);
+
+      if (foundCities.isNotEmpty) {
+        result.add(foundCities[0]);
+      }
+    }
+
+    return result;
+  }
+
   List searchCity(text) {
     List result = [];
 

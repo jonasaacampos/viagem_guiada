@@ -60,8 +60,9 @@ class AppData with ChangeNotifier {
     }
   }
 
-  // static const urlJsonApi = 'https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/data/data-api.json';
-  static const urlJsonApi = 'https://api.b7web.com.br/flutter1wb';
+  static const urlJsonApi =
+      'https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/data/data-api.json';
+  //static const urlJsonApi = 'https://api.b7web.com.br/flutter1wb';
 
 //https://api.b7web.com.br/flutter1wb
 //https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/data/data-api.json

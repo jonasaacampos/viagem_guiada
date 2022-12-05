@@ -6,13 +6,13 @@
                 "name": "France",
                 "cities": [
                     {
-                        "name": "Paris",
+                        "name": "Salvador",
                         "review": "4.2",
                         "description": "Chislic esse t-bone, consectetur ex exercitation leberkas cupim short loin burgdoggen ribeye. Meatball ad pastrami mollit rump aliquip bresaola magna et jowl fugiat. Cillum cow dolore jerky flank, sed kevin nisi do dolor chicken. Kielbasa do pork belly turkey. Reprehenderit do excepteur pancetta rump incididunt. Alcatra adipisicing boudin dolore ullamco cupim ut pork in.",
                         "places": [
                             {
                                 "name": "Torre Eiffel",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/torre_eiffel.jpg"
+                                "img": "lib/assets/img/salvador.jpg"
                             },
                             {
                                 "name": "Museu do Louvre",

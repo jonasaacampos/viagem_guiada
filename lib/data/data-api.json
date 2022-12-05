@@ -1,26 +1,28 @@
 [
     {
-        "name": "EUROPA",
+        "name": "Norte/Nordeste",
         "countries": [
             {
-                "name": "France",
+                "name": "Salvador, Bahia",
                 "cities": [
                     {
                         "name": "Salvador",
                         "review": "4.2",
-                        "description": "Chislic esse t-bone, consectetur ex exercitation leberkas cupim short loin burgdoggen ribeye. Meatball ad pastrami mollit rump aliquip bresaola magna et jowl fugiat. Cillum cow dolore jerky flank, sed kevin nisi do dolor chicken. Kielbasa do pork belly turkey. Reprehenderit do excepteur pancetta rump incididunt. Alcatra adipisicing boudin dolore ullamco cupim ut pork in.",
+                        "description": "No livro, são citadas a Cidade Baixa, área litorânea e portuária de Salvador, onde os meninos viviam; e a Cidade Alta, zona mais moderna de Salvador atualmente. Na época, era um local mais residencial onde morava a elite da capital baiana. Hoje, as duas regiões possuem atrativos para turistas.",
+                        "book":"Capitães da Areia",
+                        "author": "Jorge Amado",
                         "places": [
                             {
-                                "name": "Torre Eiffel",
-                                "img": "lib/assets/img/salvador.jpg"
+                                "name": "Salvador",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/salvador.jpg"
                             },
                             {
-                                "name": "Museu do Louvre",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/museu_do_louvre.jpg"
+                                "name": "Cidade Baixa",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/salvador-cidade-baixa.jpg"
                             },
                             {
-                                "name": "Catedral de Notredame",
-                                "img": "https:\/\/api.b7web.com.br\/flutter1wb\/imgs\/catedral_de_notradame.jpg"
+                                "name": "Cidade Alta",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/salvador-cidade-alta.jpg"
                             }
                         ]
                     },

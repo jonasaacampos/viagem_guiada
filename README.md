@@ -69,8 +69,7 @@ Provider.of<T>(context,listen:false)
     2.  Alterar a versão no arquivo `local.properties` caso se aplique
 8.  Criar o bundle (antigo apk)
     1.  `flutter build appbundle`
-
-
+9.  Caso tudo ocorra bem, o arquivo compilado estará em `build\app\outputs\bundle\release\app-release.aab`
 
 
 ## Referências
@@ -79,6 +78,7 @@ Provider.of<T>(context,listen:false)
 - [**Flutter app crash after converting Provider 3 to 4**](https://stackoverflow.com/questions/59590673/flutter-app-crash-after-converting-provider-3-to-4)
 - [**Android Icon Generator**](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=circle&effects=none&name=ic_launcher) (Usar esta ferramenta, e salvar o arquivo como `ic_launcher` facilita para substituição do ícone padrão.)
 - [Build and release an Android app](https://docs.flutter.dev/deployment/android)
+- [Google Play Console](https://play.google.com/console)
 
 ### Créditos dos textos e imagens
 

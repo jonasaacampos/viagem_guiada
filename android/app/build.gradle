@@ -33,7 +33,7 @@ if(keystorePropertiesFile.exists()){
 }
 
 android {
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdkVersion 31
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -55,26 +55,38 @@ android {
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
         minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+        targetSdkVersion 31
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
 
     signingConfigs {
-        release {
-            keyAlias keystoreProperties['keyalias']
+        
+        debug {
+            keyAlias keystoreProperties['keyAlias']
             keyPassword keystoreProperties['keyPassword']
             storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-            storeFile keystoreProperties['storeFile']
             storePassword keystoreProperties['keyPassword']
+
+        }
+        
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['keyPassword']
+
         }
 
     }
     
     buildTypes {
+        debug{ 
+            signingConfig signingConfigs.debug
+        }        
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
+            minifyEnabled true
+            shrinkResources true
             signingConfig signingConfigs.release
         }
     }

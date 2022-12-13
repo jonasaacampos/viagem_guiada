@@ -1,4 +1,44 @@
-### Para criar o projeto:
+<p align="center">
+<a href='https://github.com/jonasaacampos'><img src='https://img.shields.io/badge/feito%20com%20%E2%9D%A4%20por-jaac-cyan'></a>
+<a href='https://www.linkedin.com/in/jonasaacampos'><img src='https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8'></a>
+</p>
+
+<p align="center">
+   <a href='https://github.com/jonasaacampos'>
+      <img alt="" src="https://img.shields.io/static/v1?color=blue&label=Flutter&message=Android&style=for-the-badge&logo=Flutter"/>
+      </a>
+</p>
+
+<h1>Viagem Guiada: Destinos reais para histórias imaginadas</h1>
+
+<img alt="logo desc..." src="lib\assets\design-source\1024.png" width=150 align=right>
+
+![](https://img.shields.io/badge/dart-informational?style=flat&logo=dart&logoColor=white&color=grey)
+![](https://img.shields.io/badge/flutter-informational?style=flat&logo=flutter&logoColor=white&color=blue)
+![](https://img.shields.io/badge/android-informational?style=flat&logo=android&logoColor=white&color=green)
+
+> Aplicativo de uma agência de viagens que sugere destinos que foram citados em livros. Um incentivo à viagem e à leitura.
+
+-------------
+
+<h2>Índice de Navegação</h2>
+
+<!-- TOC -->
+
+- [1. Ambiente de Desenvolvimento](#1-ambiente-de-desenvolvimento)
+  - [1.1. Para criar o projeto:](#11-para-criar-o-projeto)
+  - [1.2. Para rodar o projeto](#12-para-rodar-o-projeto)
+- [2. Deploy](#2-deploy)
+- [3. Referências](#3-referências)
+  - [3.1. Créditos dos textos e imagens](#31-créditos-dos-textos-e-imagens)
+  - [3.2. Agradecimentos](#32-agradecimentos)
+- [4. Contato](#4-contato)
+
+<!-- /TOC -->
+
+## 1. Ambiente de Desenvolvimento
+
+### 1.1. Para criar o projeto:
 
 ```bash
 flutter create viagem_guiada
@@ -21,11 +61,11 @@ Usar ` provider: ^4.3.3`
 Provider.of<T>(context,listen:false)
 ```
 
-### Para rodar o projeto
+### 1.2. Para rodar o projeto
 
 `flutter run`
 
-## Deploy
+## 2. Deploy
 
 1. Criar um ícone descence e substituir os ícones default (`android/app/src/main/res = > todos os ícones`)
 2. Criar uma assinatura digital do projeto 
@@ -71,8 +111,7 @@ Provider.of<T>(context,listen:false)
     1.  `flutter build appbundle`
 9.  Caso tudo ocorra bem, o arquivo compilado estará em `build\app\outputs\bundle\release\app-release.aab`
 
-
-## Referências
+## 3. Referências
 
 - [**pub.dev** - The official package repository for Dart and Flutter apps](https://pub.dev/)
 - [**Flutter app crash after converting Provider 3 to 4**](https://stackoverflow.com/questions/59590673/flutter-app-crash-after-converting-provider-3-to-4)
@@ -80,12 +119,28 @@ Provider.of<T>(context,listen:false)
 - [Build and release an Android app](https://docs.flutter.dev/deployment/android)
 - [Google Play Console](https://play.google.com/console)
 
-### Créditos dos textos e imagens
+### 3.1. Créditos dos textos e imagens
 
 - https://turismo.ig.com.br/destinos-nacionais/2018-04-18/destinos-classicos-literatura.html
 - https://companhiadeviagem.blogosfera.uol.com.br/2016/06/29/cidades-e-roteiros-literarios-para-viajar-alem-das-paginas-dos-livros/
 - FreePick
 
-### Agradecimentos
+### 3.2. Agradecimentos
 
 Romi Matos, Zilene, Rosi Maria e clube de leitores de Maringá.
+
+-----
+<!-- CONTACT -->
+
+## 4. Contato
+
+**Author:** Jonas Araujo de Avila Campos
+
+<p align='center'>
+  <a href='https://github.com/jonasaacampos'>
+    <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'/>
+  </a>
+  <a href='https://www.linkedin.com/in/jonasaacampos/'>
+    <img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'/>
+  </a>
+</p>

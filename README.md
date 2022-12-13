@@ -30,7 +30,45 @@ Provider.of<T>(context,listen:false)
 1. Criar um ícone descence e substituir os ícones default (`android/app/src/main/res = > todos os ícones`)
 2. Criar uma assinatura digital do projeto 
    1. `keytool -genkey -v -keystore %userprofile%\upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload`
-   2. Requer JDK configurado
+   2. Requer JDK configurado ou;
+   3. acesse o diretório binário do Android Studio  `cd C:\Program Files\Android\Android Studio\jre\bin` e rode o comando do passo 1.
+   4. preencha os dados da chave
+3. Crie o arquivo `key.properties`  dentro do diretório `android`
+   1. Preecher com os dados padrão, e manter fora do controle de versão 
+   
+   ```porperties
+      storePassword=suaSenha
+      keyPassword=suaSenha
+      keyAlias=key
+      storeFile=seuCaminho/arquivoChave.jks
+   ```
+
+4. configurar o `android/app/bild.gradle`
+   1. Antes do trecho `android {...`, inserir uma função para utilizarmos nosso arquivo de chave
+   2. Alterar `signingConfig signingConfigs.debug` para `signingConfig signingConfigs.release`
+   3. Inserir informações de confirmação de assinatura antes do trecho de `buildTypes {...`
+
+```java
+  signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyalias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['keyPassword']
+        }
+    }
+```
+
+5.  Limpar o cache do aplicativo com `flutter clean` 
+6.  Alterar o `android/app/src/main/AndroidManifest.xml` e preencher as tags:
+    1.  `package`
+    2.  `<uses-permission android:name="android.permission.INTERNET"/>` inserir permissões que se aplicam
+    3.  `application android:label`
+7.  Alterar o `android/app/bild.gradle` nos itens
+    1.  `defaultConfig` = preencher com o mesmo nome do package do passo anterior
+    2.  Alterar a versão no arquivo `local.properties` caso se aplique
+8.  Criar o bundle (antigo apk)
+    1.  `flutter build appbundle`
 
 
 

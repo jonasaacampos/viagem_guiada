@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.viagem_guiada">
+    package="com.jaac.viagem_guiada">
+   
+   <uses-permission android:name="android.permission.INTERNET"/>
+
    <application
-        android:label="viagem_guiada"
+        android:label="Viagem Guiada"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

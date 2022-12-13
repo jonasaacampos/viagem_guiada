@@ -7,8 +7,8 @@ $ code . # para abrir o Visual Studio Code no diretÃ³rio do projeto
 $ flutter run
 ```
 
-- [x] Criar diretÃ³rio para imagens (assests)
-- [ ] Criar diretÃ³rio `src` e dentro dele `models, pages, partials`
+- [x] Criar diretório para imagens (assests)
+- [ ] Criar diretório `src` e dentro dele `models, pages, partials`
 - [ ] Apagar todo o conteÃºdo do arquivo principal (`lib/main.dart`)
 
 **No arquivo `pubspec.yaml`**
@@ -22,11 +22,6 @@ Usar ` provider: ^4.3.3`
 Provider.of<T>(context,listen:false)
 ```
 
-**Projeto terá**
-
-rotas nomeadas
-provider
-
 
 ## Referências
 
@@ -39,3 +34,6 @@ provider
 - https://companhiadeviagem.blogosfera.uol.com.br/2016/06/29/cidades-e-roteiros-literarios-para-viajar-alem-das-paginas-dos-livros/
 - FreePick
 
+## Agradecimentos
+
+Romi Matos, Zilene, Rosi Maria e clube de leitores de Maringá.

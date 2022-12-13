@@ -49,8 +49,7 @@
                         ]
                     }
                 ]
-            } ,
-
+            },
             {
                 "name": "Recife, Pernambuco",
                 "cities": [
@@ -77,11 +76,10 @@
                                 "name": "Rio Capibaribe - Ponte Duarte Coelho",
                                 "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/recife-rio-capibaribe-antigo.jpg"
                             }
-
                         ]
                     }
                 ]
-            } ,
+            },
             {
                 "name": "Manaus, Amazonas",
                 "cities": [
@@ -108,19 +106,12 @@
                                 "name": "Mercado Municipal de Manaus",
                                 "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/manaus-mercado-municipal.jpg"
                             }
-
                         ]
                     }
                 ]
-            } 
-
-            
-            
-
-
+            }
         ]
     },
-
     {
         "name": "Centro Oeste/Sudeste",
         "countries": [
@@ -171,6 +162,26 @@
                             {
                                 "name": "São Paulo (noite)",
                                 "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/sao-paulo-noite.jpg"
+                            },
+                            {
+                                "name": "Avenida Paulista",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/sao-paulo-avenida-paulista.jpg"
+                            },
+                            {
+                                "name": "Catedral da Sé",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/sao-paulo-catedral-da-se.jpg"
+                            },
+                            {
+                                "name": "Parque da Independência",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/sao-paulo-parque-da-independencia.jpg"
+                            },
+                            {
+                                "name": "Ponte Estaiada",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/sao-paulo-ponte-estaiada.jpg"
+                            },
+                            {
+                                "name": "Teatro Municipal",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/sao-paulo-teatro-municipal.jpg"
                             }
                         ]
                     }
@@ -193,6 +204,22 @@
                             {
                                 "name": "Casa do Sol",
                                 "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/campinas-casa-do-sol.jpg"
+                            },
+                            {
+                                "name": "Catedral Metropolitana",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/campinas-catedral-metropolitana.jpg"
+                            },
+                            {
+                                "name": "Estaçao Ferroviária",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/campinas-estacao-ferroviaria.jpg"
+                            },
+                            {
+                                "name": "Mercadão Municpal",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/campinas-mercado-municipal.jpg"
+                            },
+                            {
+                                "name": "Teatro Castro Mendes",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/campinas-teatro-castro-mendes.jpg"
                             }
                         ]
                     }
@@ -213,15 +240,21 @@
                                 "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/taubate.jpg"
                             },
                             {
-                                "name": "Taubaté - Relógio",
+                                "name": "Relógio",
                                 "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/taubate-relogio.jpg"
+                            },
+                            {
+                                "name": "Igreja Santa Terezinha",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/taubate-igreja-santa-terezinha.jpg"
+                            },
+                            {
+                                "name": "Zona rural",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/taubate-zona-rural.jpg"
                             }
                         ]
                     }
                 ]
             }
-            
-            
         ]
     },
     {
@@ -248,12 +281,148 @@
                             {
                                 "name": "Prefeitura Municipal",
                                 "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/bage-prefeitura.jpg"
+                            },
+                            {
+                                "name": "Biblioteca Municipal",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/bage-biblioteca-municipal.jpg"
                             }
                         ]
                     }
                 ]
-            }          
+            },
+            {
+                "name": "Maringá, Paraná",
+                "cities": [
+                    {
+                        "name": "Maringá",
+                        "review": "4.2",
+                        "description": "Próximo ao seu aniversário de uma década dedicada à ficção e após cinco livros de contos, o paranaense Luigi Ricciardi estreia no romance. Tendo como pano de fundo a visita de John Dos Passos (1896-1970) à recém-criada cidade de Maringá, na década de 1960, a narrativa vai da paixão do autor norte-americano pela cabocla Maria do Ingá à presença de um agente da KGB em terras brasileiras — e sua missão de matar Dos Passos.",
+                        "book": "OS PASSOS VERMELHOS DE JOHN",
+                        "author": "Luigi Ricciardi",
+                        "places": [
+                            {
+                                "name": "Maringá",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/maringa.jfif"
+                            },
+                            {
+                                "name": "Bosque das Grevíleas",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/maringa-bosque-das-grevileas.jpg"
+                            },
+                            {
+                                "name": "Capela Santa Cruz",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/maringa-capela-santa-cruz.jpg"
+                            },
+                            {
+                                "name": "Catedral",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/maringa-catedral.jpg"
+                            },
+                            {
+                                "name": "Parque do Ingá",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/maringa-parque-do-inga.jpg"
+                            },
+                            {
+                                "name": "Parque do Japão",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/maringa-parque-do-japao.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Curitiba, Paraná",
+                "cities": [
+                    {
+                        "name": "Curitiba",
+                        "review": "4.2",
+                        "description": "O segundo romance de Marcos Peres, premiado autor de O evangelho segundo Hitler A morte de uma professora de filosofia revela a rivalidade – a princípio, filosófica – entre duas famílias proeminentes nas duas principais universidades do Paraná. A história é narrada por um psicólogo que conversa com uma misteriosa paciente, alocada no quarto 206 de uma clínica psiquiátrica. Seria possível que o assassinato tivesse como causa desavenças acadêmicas entre os Koch e os Klein, ambos clãs que migraram da Alemanha para o Sul do Brasil? Ou teria algo a ver com um segredo enterrado no passado? Em meio a discussões sobre Nietzsche e Santo Agostinho, somos conduzidos pelos meandros desse mistério por um dos escritores mais promissores da nova geração.",
+                        "book": "Que fim levou Juliana Klein?",
+                        "author": "Marcos Peres",
+                        "places": [
+                            {
+                                "name": "Curitiba",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/curitiba.jpg"
+                            },
+                            {
+                                "name": "Jardim Botânico",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/curitiba-jardim-botanico.jpg"
+                            },
+                            {
+                                "name": "Paço da Liberdade",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/curitiba-paco-da-liberdade.jpg"
+                            },
+                            {
+                                "name": "Palácio Avenida",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/curitiba-palacio-avenida.jpg"
+                            }
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Porto Alegre, RS",
+                "cities": [
+                    {
+                        "name": "Porto Alegre",
+                        "review": "4.2",
+                        "description": "O segundo romance de Marcos Peres, premiado autor de O evangelho segundo Hitler A morte de uma professora de filosofia revela a rivalidade – a princípio, filosófica – entre duas famílias proeminentes nas duas principais universidades do Paraná. A história é narrada por um psicólogo que conversa com uma misteriosa paciente, alocada no quarto 206 de uma clínica psiquiátrica. Seria possível que o assassinato tivesse como causa desavenças acadêmicas entre os Koch e os Klein, ambos clãs que migraram da Alemanha para o Sul do Brasil? Ou teria algo a ver com um segredo enterrado no passado? Em meio a discussões sobre Nietzsche e Santo Agostinho, somos conduzidos pelos meandros desse mistério por um dos escritores mais promissores da nova geração.",
+                        "book": "O avesso da pele",
+                        "author": "Jeferson Tenório",
+                        "places": [
+                            {
+                                "name": "Porto Alegre",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/porto-alegre.jpg"
+                            },
+                            {
+                                "name": "Casa da Cultura Mário Quintana",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/porto-alegre-casa-da-cultura-mario-quintana.jpg"
+                            },
+                            {
+                                "name": "Monumento aos Açorianos",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/porto-alegre-monumento-aos-acorianos.jpg"
+                            },
+                            {
+                                "name": "Praça Farroupilha",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/porto-alegre-parque-farroupilha.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Londrina, Paraná",
+                "cities": [
+                    {
+                        "name": "Londrina",
+                        "review": "4.2",
+                        "description": "Romance policial escrito nos moldes de grandes narradores como Conan Doyle, criador de Sherlock Holmes, O Trovador nos leva à Londrina dos anos 1930, no início de sua exploração cafeeira e madeireira. É na paisagem dos trópicos que o tradutor Adam Blake e lorde Lovat, presidente da companhia de terras britânica Parana Plantations, buscarão a chave dos mistérios que se escondem nas entrelinhas de uma canção medieval. Rodrigo Garcia Lopes dá vida a aventureiros, estrangeiros de passado obscuro, trabalhadores sujos de serragem, fazendeiros engravatados e empresárias da noite, personagens que nos ajudam a desvendar uma série de assassinatos que tem como pista a poesia. ",
+                        "book": "O Trovador",
+                        "author": "Rodrigo Garcia Lopes",
+                        "places": [
+                            {
+                                "name": "Londrina",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/londrina.jpg"
+                            },
+                            {
+                                "name": "Catedral",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/londrina-catedral.jpg"
+                            },
+                            {
+                                "name": "Jardim Botânico",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/londrina-jardim-botanico.jpg"
+                            },
+                            {
+                                "name": "Museu Histórico",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/londrina-museu-historico.jpg"
+                            },
+                            {
+                                "name": "Praça Tomi Nakagawa",
+                                "img": "https://raw.githubusercontent.com/jonasaacampos/viagem_guiada/master/lib/assets/img/londrina-praca-tomi-nakagawa.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
     }
-
 ]
